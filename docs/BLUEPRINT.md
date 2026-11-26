@@ -24,10 +24,10 @@ and hover micro-interactions, served by the same FastAPI app, no build step — 
 non-technical user making a prediction.
 
 The project exists to be a single, coherent, end-to-end artifact for a CV and GitHub profile — not
-four disconnected course notebooks. It merges four separate ProjectPro course titles into one
+four disconnected notebooks. It merges four separate project ideas I scoped into one
 system:
 
-| # | ProjectPro title | Where it lives in this repo |
+| # | Project title | Where it lives in this repo |
 |---|---|---|
 | 1 | Loan Eligibility Prediction using Gradient Boosting Classifier | `src/lia/loan_train.py` |
 | 2 | Loan Eligibility Prediction Project using Machine Learning on GCP | MySQL feature store, SQL views, `docs/GCP_MAPPING.md` |
@@ -119,7 +119,7 @@ Scheduled retrain job + PSI/KS drift check against the Aug 2026 drift episode
 | ✅ Done | Scheduled retrain + PSI/KS drift monitoring |
 | ✅ Done | Dockerised FastAPI, with configurable host ports |
 | ✅ Done | README/registry consistency fix (champion label corrected to match real results) |
-| ➖ Dropped | H2O.ai independent comparison (ProjectPro title #4) — built, verified, then deliberately removed in favour of a leaner, XGBoost-focused repo |
+| ➖ Dropped | H2O.ai independent comparison (title #4) — built, verified, then deliberately removed in favour of a leaner, XGBoost-focused repo |
 | ✅ Done | MLflow experiment tracking + model registry |
 | ➖ Dropped | Streamlit as the UI framework — a Light/Dark/Mix redesign was built in it first, then replaced outright (see Roadmap entry below and Progress Log) |
 | ✅ Done | Futuristic Dark/Light/Sunset dashboard: static HTML/CSS/JS, no build step, served by FastAPI itself |
@@ -140,7 +140,7 @@ random seed or SMOTE's resampling can flip the ranking. In a real bank this is e
 never hard-code "XGBoost is the champion" in a README — you re-evaluate every retrain and let the
 registry, not a document, decide.
 
-**Q: The project description says it merges four ProjectPro titles, but H2O.ai is gone — why?**
+**Q: The project description says it merges four project titles, but H2O.ai is gone — why?**
 A: It was built first, as a genuine independent cross-check: the identical loan comparison —
 same split, same Platt calibration, same cost-based money rule — re-run on H2O's own estimators
 instead of sklearn's. It worked, and it agreed with the sklearn/XGBoost champion (H2O's own best
@@ -149,7 +149,7 @@ its own right. It was then deliberately removed: H2O.ai shows up far less often 
 Data Scientist job descriptions, and carrying a second ML engine, its own Docker image and a JVM
 dependency just to re-prove a result that already agreed wasn't worth the extra surface area for a
 portfolio repo whose job is to be read and run quickly by a recruiter or interviewer. The title
-itself stays listed (the project only uses the four existing ProjectPro titles, never invents new
+itself stays listed (the project only uses the four original project titles, never invents new
 ones) but is marked "dropped" rather than silently deleted from the story — knowing when to cut a
 working feature, and being able to say why, is itself worth more in an interview than keeping it.
 
@@ -229,7 +229,7 @@ reason someone might choose differently for a different portfolio.
 See `docs/DATA_CARD.md` section 8 for the full list. In short: the outcome labels come from a
 documented synthetic risk model, not real repayment history; the smoker premium loading follows a
 US-based seed, not Indian tariffs; the architecture images in the course knowledge file are
-generic ProjectPro carousel diagrams, not project-specific; and the Kaggle seed licences are not
+generic reference carousel diagrams, not project-specific; and the Kaggle seed licences are not
 fully verified (2 of 4 confirmed — tracked in the roadmap above). One earlier limitation is now
 resolved rather than carried forward: Streamlit's canvas-rendered tables used to keep one fixed
 look regardless of the active theme — the dashboard's native HTML tables no longer have that
@@ -433,7 +433,7 @@ restriction.
   `h2o-docker` Makefile targets, the `h2o-smoke` CI job, and the H2O→Vertex AI row from
   `docs/GCP_MAPPING.md`. Rewrote every H2O-related passage in the README (title sentence,
   architecture diagram, Quick Start, results section/table, repository map, test count, limitations
-  list) and updated `docs/DATA_CARD.md`'s ProjectPro-titles table with an "Implemented?" column
+  list) and updated `docs/DATA_CARD.md`'s project-titles table with an "Implemented?" column
   marking title #4 as deliberately dropped. Full test suite re-run afterwards: 22/22 passing (down
   from 24, the two H2O-specific tests removed with the module).
 - Separately, the user flagged that two other local projects were already running on this laptop

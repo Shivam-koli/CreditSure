@@ -17,9 +17,9 @@ Seed: `numpy.random.default_rng(42)` - fully reproducible with `generator/build.
 
 The files are deliberately **raw** (landing-zone quality). The cleaning and transformation work is part of your project. Every defect is detectable, and the format and label defects are fully reversible (round-trip tested, section 7); outliers, sentinels and unit slips need rules or imputation.
 
-## 2. How the ProjectPro titles are covered by the data
+## 2. How the project titles are covered by the data
 
-Three of the four source ProjectPro titles are implemented in this project (see `docs/BLUEPRINT.md`). The fourth, H2O.ai, is kept in this table because the data genuinely supports it, not because it ships - the decision not to build it is logged in `docs/BLUEPRINT.md`'s progress log.
+Three of the four source project titles are implemented in this project (see `docs/BLUEPRINT.md`). The fourth, H2O.ai, is kept in this table because the data genuinely supports it, not because it ships - the decision not to build it is logged in `docs/BLUEPRINT.md`'s progress log.
 
 | Project title | What the data gives it | Implemented? |
 |---|---|---|
@@ -115,7 +115,7 @@ So boosting wins modestly, as it should on real credit data: logistic regression
 2. **What the seeds really contributed.** Only the Analytics Vidhya loan set (demographics, income, credit-history mix) and `insurance.csv` (charges surface) carry real signal. The CIBIL/asset set is rule-based synthetic (approval flips at CIBIL ~550 with ~10% noise) and the 45k credit-risk set looks synthetic (interest rate uncorrelated with credit score). They were used for schema, asset ratios, age/experience and category mixes only. The 100-row plan set gave plan/term/premium structure.
 3. **Smoker loading** (~5x) follows the US-based public seed, not filed Indian tariffs. It keeps the interaction structure the project teaches; do not present it as Indian pricing.
 4. **Outcome label:** this is repayment behaviour on booked loans (no reject inference). Eligibility = approve when predicted default probability is below a cost-based threshold.
-5. **Architecture images:** the 24 images in the knowledge file are the same six generic ProjectPro carousel diagrams (S3 data lake, Kinesis streaming, CNN images, call-centre ARCH/GARCH, LSTM text, SQL DDL/functions), not project-specific. Data requirements were therefore taken from the course outcome text plus the SQL / time-series / imbalance hooks in those diagrams.
+5. **Architecture images:** the 24 images in the knowledge file are the same six generic reference carousel diagrams (S3 data lake, Kinesis streaming, CNN images, call-centre ARCH/GARCH, LSTM text, SQL DDL/functions), not project-specific. Data requirements were therefore taken from the course outcome text plus the SQL / time-series / imbalance hooks in those diagrams.
 6. **Licences - partially verified (2026-11-21).** Checked without a Kaggle login, via mirrors/citations:
    - `mirichoi0218/insurance` (Medical Cost Personal Datasets) - the dataset's own author states all of these source datasets are in the public domain. Low risk.
    - The 614-row Analytics Vidhya loan prediction seed - mirrored on OpenML tagged **CC0: Public Domain**. Low risk.
