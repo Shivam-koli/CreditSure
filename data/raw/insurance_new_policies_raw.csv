@@ -1,0 +1,501 @@
+policy_id,application_date,channel,city,state,zone,city_tier,age,sex,marital_status,occupation,annual_income_inr,height_cm,weight_kg,bmi,smoker,children,pre_existing_condition,plan_type,policy_term_years,premium_paying_term_years,sum_assured_inr,payment_frequency,country,source_system
+PO019701,2026-11-01,Online,Pune,Maharashtra,West,1,24,Female,Single,IT / Office,356000,162,73.1,32,No,0,No,NONPAR,20,10,372000,Half-Yearly,India,POLICY-ADMIN
+PO019702,2026-11-01,,Delhi,Delhi,North,1,27,Female,Single,Business Owner,1020000,165,79.3,29.1,Yes,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019703,01/11/2026,Online,Delhi,Delhi,North,1,34,Female,Single,Manufacturing,483000,152,83,35.9,No,0,No,Nonpar,20,10,275000,Annual,India,POLICY-ADMIN
+PO019704,2026-11-01,Agent,Delhi,Delhi,North,1,37,Female,Married,Professional (CA/Lawyer/Architect),1196000,166,69.5,25.2,No,0,No,ULIP,15,5,3000000,Half-Yearly,India,POLICY-ADMIN
+PO019705,01-Nov-2026,Agent,Visakhapatnam,Andhra Pradesh,South,2,54,Female,Married,Business Owner,1474000,161,83.9,32.4,No,3,No,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO019706,2026-11-01,Broker,Aurangabad,Maharashtra,West,3,47,Male,Married,Professional (CA/Lawyer/Architect),535000,172,60.4,20.4,Yes,1,No,ULIP,15,5,420000,Annual,India,POLICY-ADMIN
+PO019707,2026-11-01,Bancassurance,Ahmedabad,Gujarat,West,1,34,Male,Married,Government,181800000,180,91.5,28.2,Yes,0,0,Nonpar,20,10,1200000,Annual,India,POLICY-ADMIN
+PO019708,2026-11-01,Online,Kochi,Kerala,South,2,28,Male,Married,IT / Office,568000,175,97.5,31.7,Yes,1,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019709,2026-11-01,Agent,Indore,Madhya Pradesh,Central,2,33,Male,Married,IT / Office,"Rs 2,37,000",174,73.5,24.4,No,1,No,ULIP,15,5,375000,Quarterly,India,POLICY-ADMIN
+PO019710,2026-11-01,Bancassurance,Coimbatore,Tamil Nadu,South,2,18,Female,Single,IT / Office,529000,167,74.2,26.6,No,0,No,Health Plan,1,1,500000,Qtrly,India,POLICY-ADMIN
+PO019711,2026-11-01,Bancassurance,Nagpur,Maharashtra,West,2,55,Male,Married,IT / Office,1121000,173,96.8,32.4,No,3,True,ULIP,15,5,1050000,Half-Yearly,India,POLICY-ADMIN
+PO019712,01/11/2026,Agent,Patna,Bihar,East,3,51,male,Married,Professional (CA/Lawyer/Architect),324000,168,55.9,19.7,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019713,01/11/2026,Online,Solapur,Maharashtra,West,3,42,Male,Married,Manufacturing,1113000,,77.8,25.4,No,2,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO019714,01-Nov-2026,Bancassurance,Mumbai,Maharashtra,West,1,36,Female,Married,IT / Office,1224000,162,67.5,25.8,No,1,,Nonpar,12,6,900000,Half-Yearly,India,POLICY-ADMIN
+PO019715,01.11.2026,Online,Nagpur,Maharashtra,West,2,24,male,Single,Government,546000,176,75.7,24.3,Yes,0,No,Nonpar,15,10,400000,Annual,India,POLICY-ADMIN
+PO019716,2026-11-01,Online,Jaipur,Rajasthan,North,2,43,Male,Married,Business Owner,555000,181,77.3,23.6,No,1,No,ULIP,15,5,1000000,half-yearly,India,POLICY-ADMIN
+PO019717,2026-11-01,Online,Patna,Bihar,East,3,32,Male,Single,Business Owner,392000,184,81,23.8,No,0,No,Health,1,1,1500000,Half-Yearly,India,POLICY-ADMIN
+PO019718,2026-11-01,Agent,Vadodara,Gujarat,West,2,48,Male,Married,Manufacturing,690000,164,68.7,25.7,no,0,No,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO019719,2026-11-01,Bancassurance,Indore,Madhya Pradesh,Central,2,40,Female,Married,IT / Office,1586000,160,69,27.1,No,2,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019720,01/11/2026,Bancassurance,Chennai,Tamil Nadu,South,1,37,Male,Married,Professional (CA/Lawyer/Architect),622000,175,55.4,18,No,3,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019721,2026-11-01,Broker,Pune,Maharashtra,West,1,43,male,Married,IT / Office,2094000,172,81.7,27.6,No,0,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO019722,01/11/2026,Agent,Coimbatore,Tamil Nadu,South,2,42,Male,Married,IT / Office,12.78L,181,78.9,24.1,False,1,No,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO019723,01/11/2026,Agent,Mumbai,Maharashtra,West,1,37,Male,Married,IT / Office,995000,168,72.6,25.7,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019724,2026-11-01,Online,Pune,Maharashtra,West,1,28,Female,Single,Business Owner,660000,157,44.6,18,False,0,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019725,2026-11-01,Bancassurance,Coimbatore,Tamil Nadu,South,2,25,male,Single,Healthcare,1233000,166,103.5,37.4,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019726,01/11/2026,Agent,Solapur,Maharashtra,West,3,45,Male,Married,Healthcare,1030000,178,76.1,23.9,No,3,no,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019727,01/11/2026,Online,Kolhapur,Maharashtra,West,3,31,Female,Married,Government,280000,162,68.8,26.1,No,0,No,ULIP,15,5,220000,Annual,India,POLICY-ADMIN
+PO019728,01/11/2026,Bancassurance,Chennai,Tamil Nadu,South,1,46,Female,Married,IT / Office,1370000,168,57.2,20.2,Yes,3,0,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO019729,2026-11-01,Online,CHENNAI,Tamil Nadu,South,1,38,MALE,Married,Business Owner,579000,172,85.6,29,No,1,No,Nonpar,20,10,750000,Annual,India,POLICY-ADMIN
+PO019730,2026-11-01,Online,pune,Maharashtra,West,1,42,Male,Married,Professional (CA/Lawyer/Architect),1456000,174,88.1,29,Yes,1,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019731,01/11/2026,Online,Mysuru,Karnataka,South,3,24,MALE,Married,IT / Office,743000,162,55.8,21.4,No,0,No,Nonpar,20,10,450000,Annual,India,POLICY-ADMIN
+PO019732,01/11/2026,Broker,Bengaluru,Karnataka,South,1,37,Male,Married,IT / Office,"INR 18,16,000",175,66.8,21.9,Yes,0,,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019733,2026-11-02,Bancassurance,Coimbatore,Tamil Nadu,South,2,23,female,Single,Government,1327000,157,51.1,20.7,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019734,02/11/2026,Agent,Hyderabad,Telangana,South,1,30,Male,Single,,"INR 12,22,000",161,65.7,25.5,N,0,No,Nonpar,20,10,,Annual,India,POLICY-ADMIN
+PO019735,2026-11-02,Broker,Hyderabad,Telangana,South,1,35,Male,Married,IT / Office,1322000,172,58.6,19.8,True,1,,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019736,2026-11-02,Agent,Ranchi,Jharkhand,East,3,41,Male,Married,Professional (CA/Lawyer/Architect),1511000,169,78.2,27.5,Yes,1,No,Nonpar,20,10,1000000,Quarterly,India,POLICY-ADMIN
+PO019737,2026-11-02,Agent,Chandigarh,Chandigarh,North,2,24,Female,Single,IT / Office,369000,156,62.4,25.5,No,0,No,Nonpar,20,5,140000,Annual,India,POLICY-ADMIN
+PO019738,2026-11-02,Agent,Indore,Madhya Pradesh,Central,2,42,Female,Married,IT / Office,361000,170,83.1,28.9,No,1,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019739,02/11/2026,Online,Mumbai,Maharashtra,West,1,25,Female,Single,Business Owner,265000,153,52.7,22.5,No,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019740,2026-11-02,Online,Bengaluru,Karnataka,South,1,35,Male,Married,Government,938000,175,59.1,19.3,Yes,3,No,Par,15,7,750000,,India,POLICY-ADMIN
+PO019741,02-Nov-2026,Bancassurance,Ahmedabad,Gujarat,West,1,39,Male,Married,IT / Office,555000,171,70,24,No,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019742,02.11.2026,Agent,Mumbai,Maharashtra,West,1,39,male,Married,Business Owner,2004000,156,53.8,22,No,0,no,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019743,02/11/2026,Agent,Ahmedabad,Gujarat,West,1,43,Male,Married,IT / Office,909000,162,58.7,22.3,No,1,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO019744,2026-11-02,Broker,Hyderabad,Telangana,South,1,32,Male,Married,Government,744000,163,73.5,27.5,1,0,no,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO019745,2026-11-02,Agent,Visakhapatnam,Andhra Pradesh,South,2,21,Female,Married,IT / Office,178000,153,45.4,19.5,False,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019746,02/11/2026,Online,Coimbatore,Tamil Nadu,South,2,38,Female,Married,Government,1432000,153,72.7,31.1,No,0,No,health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019747,2026-11-02,Broker,Aurangabad,Maharashtra,West,3,29,Male,Single,IT / Office,334000,157,61.4,24.8,No,0,No,Nonpar,20,10,600000,Monthly,India,POLICY-ADMIN
+PO019748,2026-11-02,Online,Mumbai,Maharashtra,West,1,34,Male,Married,Business Owner,1127000,178,186.3,26.8,0,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019749,02/11/2026,Agent,Guwahati,Assam,East,3,35,M,Married,Business Owner,752000,163,54.3,20.5,Yes,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019750,02/11/2026,Bancassurance,Guwahati,Assam,East,3,33,Male,Married,Government,763000,173,97.4,32.5,No,1,No,ULIP,15,5,750000,Annual,India,POLICY-ADMIN
+PO019751,2026-11-02,Online,Jalandhar,Punjab,North,3,42,Female,Married,Business Owner,,172,51.2,17.4,no,,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019752,02/11/2026,Online,Pune,Maharashtra,West,1,36,Male,Married,Professional (CA/Lawyer/Architect),778000,186,78.4,22.6,No,0,No,Nonpar,20,10,,Annual,India,POLICY-ADMIN
+PO019753,02-Nov-2026,Online,Mysuru,Karnataka,South,3,34,Male,Married,Government,406000,177,87.7,28.1,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019754,02/11/2026,Agent,Chennai,Tamil Nadu,South,1,37,,Married,,515000,155,69.2,,,1,No,Nonpar,20,10,360000,Quarterly,India,POLICY-ADMIN
+PO019755,2026-11-02,Online,Pune,Maharashtra,West,1,35,Male,Single,IT / Office,224000,172,53.4,18.1,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019756,2026-11-02,Bancassurance,Delhi,Delhi,North,1,30,Male,Single,IT / Office,817000,170,52,17.9,No,0,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019757,2026-11-02,Online,Surat,Gujarat,West,2,26,Male,Married,Business Owner,926000,164,79.2,29.4,No,0,No,Nonpar,20,10,720000,Half-Yearly,India,POLICY-ADMIN
+PO019758,02-Nov-2026,Online,Jaipur,Rajasthan,North,2,29,Male,Married,Business Owner,781000,180,99.1,30.7,No,0,No,Nonpar,20,10,1100000,Half-Yearly,India,POLICY-ADMIN
+PO019759,02/11/2026,Bancassurance,Nashik,Maharashtra,West,2,36,Female,Married,Business Owner,886000,158,65.7,26.2,No,0,No,ULIP,15,5,1000000,Annual,India,POLICY-ADMIN
+PO019760,02/11/2026,Online,Patna,Bihar,East,3,31,Male,Single,IT / Office,903000,,75.8,28.2,no,0,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO019761,2026-11-02,Online,Guwahati,Assam,East,3,45,Male,Married,,518000,184,96.9,28.6,Yes,1,No,ULIP,15,5,660000,Annual,India,POLICY-ADMIN
+PO019762,02/11/2026,Online,Aurangabad,Maharashtra,West,3,38,Female,Married,Manufacturing,682000,177,94.6,30.1,0,0,No,Nonpar,20,10,770400,Quarterly,India,POLICY-ADMIN
+PO019763,02/11/2026,Online,Ranchi,Jharkhand,East,3,35,Male,Married,Government,784000,177,75.7,24.1,no,1,Yes,ULIP,15,5,1125000,Monthly,India,POLICY-ADMIN
+PO019764,02/11/2026,Online,Bengaluru,Karnataka,South,1,46,Female,Married,IT / Office,813000,155,66.6,27.8,No,2,No,HEALTH,1,1,1500000,Half-Yearly,India,POLICY-ADMIN
+PO019765,2026-11-02,Bancassurance,Chennai,Tamil Nadu,South,1,34,Female,Single,Healthcare,964000,165,63.3,23.2,No,0,No,Nonpar,20,10,720000,Monthly,India,POLICY-ADMIN
+PO019766,02/11/2026,Online,Mumbai,Maharashtra,West,1,25,Female,Single,Business Owner,198000,159,44,17.3,No,0,No,ULIP,15,5,379000,Annual,India,POLICY-ADMIN
+PO019767,02-Nov-2026,Agent,Ranchi,Jharkhand,East,3,48,Male,Married,Professional (CA/Lawyer/Architect),647000,165,73.3,27,No,1,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019768,2026-11-02,Online,Surat,Gujarat,West,2,35,Male,Married,Business Owner,1653000,180,68.2,21.1,No,1,No,health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019769,2026-11-02,Agent,Bengaluru,Karnataka,South,1,36,FEMALE,Married,IT / Office,2251000,152,51,22,No,0,0,Health,1,1,1500000,Half-Yearly,India,POLICY-ADMIN
+PO019770,2026-11-02,Online,Ranchi,Jharkhand,East,3,53,Female,Married,IT / Office,733000,161,62,19.5,No,3,No,ULIP,15,5,1400000,Annual,India,POLICY-ADMIN
+PO019771,2026-11-02,Agent,Solapur,Maharashtra,West,3,36,Female,Married,Manufacturing,626000,157,49.5,20.2,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019772,2026-11-02,Broker,Jaipur,Rajasthan,North,2,34,Male,Married,IT / Office,1082000,178,78.3,24.8,No,0,No,Par,15,7,750000,Quarterly,India,POLICY-ADMIN
+PO019773,2026-11-02,Agent,Lucknow,Uttar Pradesh,North,2,24,f,Single,Professional (CA/Lawyer/Architect),887000,161,61.5,23.7,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019774,2026-11-02,Online,Coimbatore,Tamil Nadu,South,2,34,Male,Married,Professional (CA/Lawyer/Architect),"Rs. 6,76,000",157,56.4,22.8,No,1,No,Nonpar,20,10,522000,Annual,India,POLICY-ADMIN
+PO019775,02/11/2026,Online,Pune,Maharashtra,West,1,52,Male,Married,Professional (CA/Lawyer/Architect),2199000,173,79.8,26.5,False,2,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019776,2026-11-02,Online,Mumbai,Maharashtra,West,1,40,Female,Married,Manufacturing,1183000,165,87.8,32.3,No,4,N,HEALTH,1,1,1500000,Yearly,India,POLICY-ADMIN
+PO019777,02-Nov-2026,Online,Visakhapatnam,Andhra Pradesh,South,2,34,Male,Married,Manufacturing,547000,,51.6,18.6,No,1,No,Nonpar,15,10,360000,Monthly,India,POLICY-ADMIN
+PO019778,02/11/2026,Bancassurance,Bhopal,Madhya Pradesh,Central,2,29,Male,,Government,892000,182,79.8,24.1,No,0,No,Nonpar,20,10,858000,Annual,India,POLICY-ADMIN
+PO019779,2026-11-02,Agent,Jaipur,Rajasthan,North,2,32,Male,Single,Business Owner,515000,186,86.7,25.1,No,0,No,Par,15,7,404000,Annual,India,POLICY-ADMIN
+PO019780,02/11/2026,Agent,Bhopal,Madhya Pradesh,Central,2,39,Female,Married,Government,675000,163,70.8,26.7,No,1,No,ULIP,15,5,750000,Annual,India,POLICY-ADMIN
+PO019781,2026-11-02,Bancassurance,Surat,Gujarat,West,2,35,Female,Single,Manufacturing,925000,151,61.6,27,No,0,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019782,02/11/2026,Bancassurance,Guwahati,Assam,East,3,35,Female,Single,Professional (CA/Lawyer/Architect),867000,165,58.8,21.5,No,0,No,Par,15,7,1100000,Quarterly,India,POLICY-ADMIN
+PO019783,2026-11-02,Bancassurance,Dehradun,Uttarakhand,North,3,33,Male,Married,IT / Office,389000,174,90.5,30,No,1,No,health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019784,02/11/2026,Online,Chandigarh,Chandigarh,North,2,21,Male,Single,Manufacturing,612000,174,74.2,24.5,No,0,No,Nonpar,15,10,600000,Monthly,India,POLICY-ADMIN
+PO019785,02.11.2026,Agent,Delhi,Delhi,North,1,32,Female,Married,Healthcare,710000,159,77.2,30.6,No,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019786,2026-11-02,Agent,Bhopal,Madhya Pradesh,Central,2,40,Female,Married,Professional (CA/Lawyer/Architect),1418000,157,56.9,23,No,1,No,Ulip,15,5,997200,Annual,India,POLICY-ADMIN
+PO019787,02.11.2026,Agent,Mumbai,Maharashtra,West,1,40,Female,Married,IT / Office,546000,164,72.8,27,N,0,No,Unit Linked,15,5,600000,Annual,India,POLICY-ADMIN
+PO019788,02-Nov-2026,Broker,Jaipur,Rajasthan,North,2,51,Female,Married,IT / Office,686000,160,79.2,30.8,No,1,Yes,ULIP,15,5,700000,Monthly,India,POLICY-ADMIN
+PO019789,02.11.2026,Agent,Bombay,Maharashtra,West,1,33,Male,Single,Business Owner,829000,169,67.5,23.5,Yes,0,No,Nonpar,20,10,540000,Annual,India,POLICY-ADMIN
+PO019790,2026-11-02,Online,Mysore,Karnataka,South,3,31,Male,Single,Manufacturing,650000,157,64.5,26.3,No,0,No,Non Participating,20,10,416500,Annual,India,POLICY-ADMIN
+PO019791,2026-11-02,Broker,Mumbai,Maharashtra,West,1,26,Male,Single,Manufacturing,927000,168,71.2,25.1,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019792,02.11.2026,Online,Kochi,Kerala,South,2,51,Female,Married,Business Owner,1644000,159,54.8,21.7,No,1,No,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO019793,02-Nov-2026,Agent,Lucknow,Uttar Pradesh,North,2,26,Female,Single,Manufacturing,544000,160,52.1,20.3,No,0,No,Nonpar,20,10,200000,Quarterly,India,POLICY-ADMIN
+PO019794,2026-11-02,Bancassurance,Rajkot,Gujarat,West,3,33,Female,Married,Business Owner,654000,151,56.2,24.6,No,1,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO019795,02.11.2026,Online,Coimbatore,Tamil Nadu,South,2,31,Male,Married,Professional (CA/Lawyer/Architect),1204000,168,62.6,,no,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019796,2026-11-02,Bancassurance,Hyderabad,Telangana,South,1,18,Female,Single,IT / Office,502000,166,69.6,25.2,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019797,02-Nov-2026,Agent,Surat,Gujarat,West,2,41,Male,Married,Healthcare,1041000,160,48.4,19,No,1,0,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019798,2026-11-02,Bancassurance,Bengaluru,Karnataka,South,1,24,Male,Single,Professional (CA/Lawyer/Architect),3366000,180,112.8,34.9,Yes,0,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019799,2026-11-02,Online,Indore,Madhya Pradesh,Central,2,23,MALE,Single,Business Owner,433000,170,66.2,22.8,Yes,0,No,Health,1,1,500000,Quarterly,India,POLICY-ADMIN
+PO019800,2026-11-02,Bancassurance,Ahmedabad,Gujarat,West,1,29,Male,Married,Professional (CA/Lawyer/Architect),979000,164,59,21.8,Yes,1,No,Non Participating,20,10,280000,Half-Yearly,India,POLICY-ADMIN
+PO019801,2026-11-02,Agent,Delhi,Delhi,North,1,38,Male,Married,Government,2627000,161,47.4,18.3,No,0,No,Health,1,1,2500000,Qtrly,India,POLICY-ADMIN
+PO019802,2026-11-02,Bancassurance,Nashik,Maharashtra,West,2,31,Male,Married,Business Owner,387000,171,77.3,26.3,No,0,0,Nonpar,20,10,200000,Yearly,India,POLICY-ADMIN
+PO019803,2026-11-02,Agent,Chennai,Tamil Nadu,South,1,36,Male,Married,IT / Office,493000,173,46.7,15.6,No,0,No,Nonpar,20,10,291000,Annual,India,POLICY-ADMIN
+PO019804,2026-11-02,Online,Ahmedabad,Gujarat,West,1,42,m,Married,IT / Office,1473000,165,75.1,27.6,No,1,No,Nonpar,15,5,2000000,Annual,India,POLICY-ADMIN
+PO019805,2026-11-02,Online,Chennai,Tamil Nadu,South,1,38,Male,Married,IT / Office,864000,171,79.1,27.1,Yes,2,False,Nonpar,20,10,,Annual,India,POLICY-ADMIN
+PO019806,02/11/2026,Online,CHENNAI,Tamil Nadu,South,1,44,Male,Married,Business Owner,644000,174,104.7,34.6,No,3,No,Nonpar,20,10,440000,Monthly,India,POLICY-ADMIN
+PO019807,2026-11-02,Online,Jalandhar,Punjab,North,3,36,Male,Married,IT / Office,323000,180,103.2,31.9,No,1,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019808,2026-11-02,Online,Indore,Madhya Pradesh,Central,2,42,Male,Married,Business Owner,1070000,171,79.4,27.2,Yes,1,No,ULIP,15,5,1650000,Half-Yearly,India,POLICY-ADMIN
+PO019809,02/11/2026,Bancassurance,Madras,Tamil Nadu,South,1,43,Male,Married,Business Owner,1310000,165,64.8,23.8,No,1,No,ULIP,15,5,2000000,Half-Yearly,India,POLICY-ADMIN
+PO019810,02/11/2026,,Vadodara,Gujarat,West,2,29,Male,Married,IT / Office,905000,167,64.7,23.2,Yes,0,no,Nonpar,15,10,845000,Quarterly,India,POLICY-ADMIN
+PO019811,2026-11-02,Agent,Visakhapatnam,Andhra Pradesh,South,2,31,Female,Married,Professional (CA/Lawyer/Architect),811000,159,67.9,27,No,1,No,Nonpar,20,10,500000,Monthly,India,POLICY-ADMIN
+PO019812,2026-11-02,Agent,Surat,Gujarat,West,2,36,Male,Married,Business Owner,884000,173,77.4,25.8,No,1,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019813,02-Nov-2026,Bancassurance,Coimbatore,Tamil Nadu,South,2,34,Female,Married,Healthcare,983000,159,65.1,25.8,1,0,No,Nonpar,15,10,400000,Annual,India,POLICY-ADMIN
+PO019814,02/11/2026,Bancassurance,Chandigarh,Chandigarh,North,2,28,Female,Married,Professional (CA/Lawyer/Architect),683000,153,44.3,18.9,No,0,No,Nonpar,20,10,660000,Annual,India,POLICY-ADMIN
+PO019815,2026-11-02,Bancassurance,BLR,Karnataka,South,1,41,Male,Married,,675000,164,60.4,22.4,Yes,0,,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019816,02/11/2026,Online,Cochin,Kerala,South,2,37,Female,Married,Healthcare,602000,159,58.1,23,No,0,No,Health,1,1,500000,Quarterly,India,POLICY-ADMIN
+PO019817,02/11/2026,Bancassurance,Visakhapatnam,Andhra Pradesh,South,2,25,Female,Single,Professional (CA/Lawyer/Architect),1159000,169,76.2,26.8,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019818,2026-11-02,Bancassurance,DELHI,Delhi,North,1,31,Male,Married,Government,433000,170,59.8,20.7,No,0,No,Nonpar,20,10,300000,Annual,India,POLICY-ADMIN
+PO019819,02-Nov-2026,Online,Jalandhar,Punjab,North,3,39,Female,Married,IT / Office,"Rs 3,90,000",157,67.1,27.4,No,0,No,health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019820,2026-11-02,Broker,Vadodara,Gujarat,West,2,27,Male,Single,IT / Office,1209000,166,71.2,26,No,0,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019821,2026-11-02,Agent,Kolkata,West Bengal,East,1,36,Male,Married,IT / Office,1958000,164,63.9,23.7,Yes,1,No,Nonpar,20,10,1000000,Annual,India,POLICY-ADMIN
+PO019822,02/11/2026,Bancassurance,Coimbatore,Tamil Nadu,South,2,25,Female,Single,IT / Office,465000,156,67.2,27.6,No,0,No,Nonpar,20,10,300000,Annual,India,POLICY-ADMIN
+PO019823,2026-11-02,Bancassurance,Kolhapur,Maharashtra,West,3,25,Male,Married,Government,,175,66.3,21.7,No,0,No,Nonpar,20,10,1800000,Annual,India,POLICY-ADMIN
+PO019824,2026-11-02,Online,Bombay,Maharashtra,West,1,35,Male,Married,Business Owner,,,53.5,18.8,No,1,No,Health,1,1,500000,Half-Yearly,India,POLICY-ADMIN
+PO019825,2026-11-02,Bancassurance,Jalandhar,Punjab,North,3,42,Male,Married,IT / Office,788000,183,100.6,30.2,No,0,No,ULIP,15,5,1416000,Quarterly,India,POLICY-ADMIN
+PO019826,2026-11-02,Bancassurance,Ranchi,Jharkhand,East,3,51,Male,Married,IT / Office,1596000,182,91.8,27.8,No,3,no,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019827,2026-11-02,Agent,Delhi,Delhi,North,1,39,Male,Married,Manufacturing,1235000,171,70.2,24,False,2,,Nonpar,20,10,1000000,Annual,India,POLICY-ADMIN
+PO019828,02-Nov-2026,Agent,Kolkata,West Bengal,East,1,29,Female,Single,Government,1150000,158,71.4,28.6,No,0,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO019829,02-Nov-2026,Bancassurance,Lucknow,Uttar Pradesh,North,2,35,Male,Married,Business Owner,2572000,176,77.7,25.1,No,2,No,Nonpar,12,6,1000000,Annual,India,POLICY-ADMIN
+PO019830,2026-11-02,Agent,Ranchi,Jharkhand,East,3,40,Female,Married,Professional (CA/Lawyer/Architect),1047000,155,48.8,20.3,Yes,2,No,Health Plan,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019831,2026-11-02,Online,Bengaluru,Karnataka,South,1,38,Female,Married,Government,3071000,151,50.5,22.2,No,1,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019832,02-Nov-2026,Online,Bengaluru,Karnataka,South,1,29,Male,Single,Healthcare,308000,165,55,20.1,No,0,0,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO019833,2026-11-02,Online,Chandigarh,Chandigarh,North,2,24,Male,Married,Business Owner,1857000,,59.2,21.5,False,0,no,Nonpar,20,10,1050000,Qtrly,India,POLICY-ADMIN
+PO019834,2026-11-02,Online,Indore,Madhya Pradesh,Central,2,48,F,Married,Business Owner,864000,167,76.6,27.6,No,2,No,Health,1,1,2500000,Quarterly,India,POLICY-ADMIN
+PO019835,02/11/2026,Online,Surat,Gujarat,West,2,32,Female,Married,Business Owner,886000,155,65.1,27.1,No,1,No,Nonpar,15,10,1800000,Annual,India,POLICY-ADMIN
+PO019836,2026-11-02,Agent,Chennai,Tamil Nadu,South,1,30,Male,Married,IT / Office,1104000,179,60.9,71,Yes,1,No,Non Participating,15,10,750000,Half-Yearly,India,POLICY-ADMIN
+PO019837,02-Nov-2026,Bancassurance,Bengaluru,Karnataka,South,1,39,Male,Married,Healthcare,281000,185,87.5,25.5,No,0,No,Par,15,7,175000,Half-Yearly,India,POLICY-ADMIN
+PO019838,02/11/2026,Broker,Hyderabad ,Telangana,South,1,26,Male,Married,Government,,169,59.6,20.8,No,0,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO019839,2026-11-02,Broker,Rajkot,Gujarat,West,3,40,Female,Married,Business Owner,498000,159,61.5,24.2,No,1,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO019840,02/11/2026,Bancassurance,Vadodara,Gujarat,West,2,29,m,Married,Business Owner,1466000,184,75.5,28.3,No,1,No,Nonpar,20,10,830000,Quarterly,India,POLICY-ADMIN
+PO019841,2026-11-02,Bancassurance,Visakhapatnam,Andhra Pradesh,South,2,38,Male,Married,Business Owner,1211000,162,64,24.5,No,2,No,Health,1,1,1500000,ANNUAL,India,POLICY-ADMIN
+PO019842,02/11/2026,Broker,Bhopal,Madhya Pradesh,Central,2,22,Male,Single,Professional (CA/Lawyer/Architect),2359000,166,75.3,27.4,No,0,No,Nonpar,20,10,1126000,Annual,India,POLICY-ADMIN
+PO019843,02/11/2026,Broker,Pune,Maharashtra,West,1,54,Female,Married,,831000,158,63.8,,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019844,2026-11-02,Broker,Jalandhar,Punjab,North,3,35,Male,Married,Professional (CA/Lawyer/Architect),2101000,164,56.5,21.1,No,1,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019845,2026-11-02,Bancassurance,Coimbatore,Tamil Nadu,South,2,33,Female,Married,IT / Office,546000,163,77.9,29.4,No,0,No,Nonpar,20,10,300000,Annual,India,POLICY-ADMIN
+PO019846,2026-11-02,Bancassurance,Dehradun,Uttarakhand,North,3,18,MALE,Single,Business Owner,223000,167,65.1,23.2,Yes,0,,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO019847,02/11/2026,Online,Surat,Gujarat,West,2,48,Female,Married,Healthcare,1197000,154,54.5,23.1,,0,Yes,Health,1,1,1000000,,India,POLICY-ADMIN
+PO019848,2026-11-02,Agent,Jaipur,Rajasthan,North,2,20,Female,Single,Manufacturing,617000,155,47.1,19.7,No,0,No,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO019849,2026-11-02,Online,hyderabad,Telangana,South,1,35,Female,Married,Manufacturing,438000,165,54.8,20.2,no,0,No,Nonpar,20,10,400000,Quarterly,India,POLICY-ADMIN
+PO019850,2026-11-02,Agent,Kochi,Kerala,South,2,23,Male,Single,Government,184000,177,77,24.5,No,0,No,health,1,1,300000,Monthly,India,POLICY-ADMIN
+PO019851,2026-11-02,Broker,Chennai,Tamil Nadu,South,1,18,Female,Single,Business Owner,660000,163,45.2,16.9,No,0,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019852,2026-11-02,Online,Visakhapatnam,Andhra Pradesh,South,2,19,Female,Single,Professional (CA/Lawyer/Architect),1420000,153,46.3,19.7,No,0,no,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019853,2026-11-02,Agent,Nagpur,Maharashtra,West,2,44,Female,Married,IT / Office,1702000,157,74.7,30.2,No,0,No,Health,1,1,2500000,ANNUAL,India,POLICY-ADMIN
+PO019854,02/11/2026,Online,Bengaluru,Karnataka,South,1,33,Female,Single,Business Owner,651000,148,37.9,17.3,No,0,No,Par,15,7,500000,ANNUAL,India,POLICY-ADMIN
+PO019855,2026-11-02,Agent,Delhi,Delhi,North,1,34,Male,Married,Professional (CA/Lawyer/Architect),194000,,52.7,20.9,No,0,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO019856,2026-11-02,Bancassurance,Bengaluru,Karnataka,South,1,28,Male,Single,Business Owner,841000,176,76.7,24.9,No,0,,Nonpar,20,10,750000,Annual,India,POLICY-ADMIN
+PO019857,2026-11-02,Bancassurance,Baroda,Gujarat,West,2,56,Male,Married,Business Owner,375000,170,59,20.3,Yes,2,,Health,1,1,500000,Monthly,India,POLICY-ADMIN
+PO019858,2026-11-02,Online,Jaipur,Rajasthan,North,2,45,Female,Married,Business Owner,511000,155,69.4,28.9,No,2,No,Nonpar,20,10,600000,Annual,India,POLICY-ADMIN
+PO019859,2026-11-03,Online,Hyderabad,Telangana,South,1,45,Female,Married,Business Owner,863000,157,60.2,20.5,No,1,No,ULIP,15,5,1000000,Annual,India,POLICY-ADMIN
+PO019860,2026-11-03,Agent,Delhi,Delhi,North,1,45,Male,Married,Government,1481000,177,78.4,,No,3,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019861,2026-11-03,Agent,Kolkata,West Bengal,East,1,39,Male,Married,IT / Office,1904000,163,60,22.5,0,,No,Nonpar,20,10,2250000,ANNUAL,India,POLICY-ADMIN
+PO019862,03/11/2026,Bancassurance,Guwahati,Assam,East,3,59,FEMALE,Married,Professional (CA/Lawyer/Architect),1176000,158,49.7,19.8,No,2,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019863,03/11/2026,Online,Coimbatore,Tamil Nadu,South,2,51,Male,Married,Business Owner,522000,165,69.2,25.4,Yes,1,No,Health Plan,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019864,2026-11-03,Bancassurance,Jaipur,Rajasthan,North,2,18,Male,Single,IT / Office,871000,174,67.5,22.3,Yes,0,No,Health,1,1,500000,Half-Yearly,India,POLICY-ADMIN
+PO019865,2026-11-03,Broker,Mumbai,Maharashtra,West,1,20,Female,Single,IT / Office,527000,161,81.7,31.4,No,0,No,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO019866,03/11/2026,Agent,Jaipur,Rajasthan,North,2,39,Male,Married,Government,465000,174,73.3,24.2,No,2,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019867,03/11/2026,Online,Nashik,Maharashtra,West,2,36,Female,Married,IT / Office,1523000,156,68.2,27.9,No,0,No,Health,1,1,1500000,Half-Yearly,India,POLICY-ADMIN
+PO019868,03/11/2026,Online,Mumbai,Maharashtra,West,1,32,Female,Married,Manufacturing,940000,161,66,25.6,No,1,No,Nonpar,20,10,300000,Monthly,India,POLICY-ADMIN
+PO019869,03/11/2026,Bancassurance,Lucknow,Uttar Pradesh,North,2,36,Female,Married,IT / Office,482000,149,62.6,28.2,No,0,No,ULIP,15,5,175000,ANNUAL,India,POLICY-ADMIN
+PO019870,03/11/2026,Bancassurance,Kolkata,West Bengal,East,1,34,Male,Married,Healthcare,524000,174,88.1,29,Yes,-1,No,ULIP,15,5,300000,Annual,India,POLICY-ADMIN
+PO019871,03/11/2026,Bancassurance,Visakhapatnam,Andhra Pradesh,South,2,29,Male,Single,Government,944000,172,78.4,26.6,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019872,2026-11-03,Online,Hyderabad,Telangana,South,1,40,Female,Married,IT / Office,529000,155,65.8,27.3,No,2,Yes,Nonpar,20,10,400000,Annual,India,POLICY-ADMIN
+PO019873,03/11/2026,Bancassurance,Surat,Gujarat,West,2,29,Female,Married,Business Owner,1162000,151,48.2,21.2,No,,No,Nonpar,20,10,1500000,Annual,India,POLICY-ADMIN
+PO019874,2026-11-03,Agent,Kolhapur,Maharashtra,West,3,31,Female,Single,IT / Office,600000,156,37.4,15.4,No,0,No,Nonpar,20,10,300000,Annual,India,POLICY-ADMIN
+PO019875,2026-11-03,Online,Ranchi,Jharkhand,East,3,23,Male,Single,Healthcare,735000,166,64.6,23.3,No,0,No,Nonpar,20,10,720000,Annual,India,POLICY-ADMIN
+PO019876,2026-11-03,Broker,Patna,Bihar,East,3,27,Female,Married,Manufacturing,750000,163,72.5,,No,0,No,Par,15,7,600000,Monthly,India,POLICY-ADMIN
+PO019877,03/11/2026,Online,Nashik,Maharashtra,West,2,25,Male,Single,Business Owner,1651000,176,72.9,23.4,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019878,03.11.2026,Broker,Indore,Madhya Pradesh,Central,2,27,male,Single,Professional (CA/Lawyer/Architect),292000,177,71,22.6,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019879,03-Nov-2026,Online,Bhopal,Madhya Pradesh,Central,2,31,Male,Married,Manufacturing,2921000,172,66.1,22.3,Yes,0,No,Nonpar,20,10,1400000,Annual,India,POLICY-ADMIN
+PO019880,2026-11-03,Agent,Kolhapur,Maharashtra,West,3,41,Female,Married,Business Owner,567000,164,58.6,21.9,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019881,2026-11-03,Online,Lucknow,Uttar Pradesh,North,2,40,Female,Married,Business Owner,2123000,155,86.8,36.2,False,1,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019882,2026-11-03,Bancassurance,Chennai,Tamil Nadu,South,1,22,Male,Single,Government,802000,172,62.7,21.3,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019883,2026-11-03,Bancassurance,Patna,Bihar,East,3,38,,Married,Government,404000,162,55.1,21.1,No,0,No,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO019884,2026-11-03,Online,Nagpur,Maharashtra,West,2,49,Female,Married,Professional (CA/Lawyer/Architect),672000,166,59.3,21.5,No,2,,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO019885,2026-11-03,Bancassurance,Visakhapatnam,Andhra Pradesh,South,2,50,Female,Married,IT / Office,408000,163,46.2,17.4,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019886,2026-11-03,Online,Hyderabad,Telangana,South,1,33,Male,Single,Business Owner,1073000,167,72.3,25.9,Yes,0,No,ULIP,15,5,3000000,ANNUAL,India,POLICY-ADMIN
+PO019887,2026-11-03,Agent,Ahmedabad,Gujarat,West,1,19,Female,Single,IT / Office,1523000,143,53.5,26,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019888,2026-11-03,Broker,Guwahati,Assam,East,3,31,Female,Married,Manufacturing,1115000,154,60.7,25.7,N,0,No,Health,1,1,1000000,annual,India,POLICY-ADMIN
+PO019889,03/11/2026,Bancassurance,Dehradun,Uttarakhand,North,3,24,Male,Single,Manufacturing,253000,178,120.1,37.9,No,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019890,03/11/2026,Agent,Rajkot,Gujarat,West,3,45,Female,Married,IT / Office,580000,153,52.1,22.2,No,1,N,Nonpar,20,10,280000,Annual,India,POLICY-ADMIN
+PO019891,2026-11-03,Online,Delhi,Delhi,North,1,33,Male,Married,Manufacturing,1529000,174,74.4,24.7,Yes,2,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO019892,2026-11-03,Agent,Delhi,Delhi,North,1,35,Female,Single,Manufacturing,1671000,152,80.1,34.7,No,0,no,Par,15,7,1000000,Annual,India,POLICY-ADMIN
+PO019893,03.11.2026,Online,Indore,Madhya Pradesh,Central,2,29,Male,Single,Manufacturing,317000,165,91.5,33.6,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019894,03/11/2026,Broker,Mysuru,Karnataka,South,3,33,Male,Married,Professional (CA/Lawyer/Architect),791000,164,70.2,26.1,No,1,No,Nonpar,20,10,750000,Annual,India,POLICY-ADMIN
+PO019895,03.11.2026,Bancassurance,Rajkot,Gujarat,West,3,38,Female,Married,Manufacturing,581000,153,49.9,21.2,No,0,No,Nonpar,20,10,180000,Monthly,India,POLICY-ADMIN
+PO019896,2026-11-03,Bancassurance,Mysuru,Karnataka,South,3,40,Male,Married,Business Owner,257000,168,66.6,23.7,Yes,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019897,03/11/2026,Broker,Chandigarh,Chandigarh,North,2,32,male,Married,Business Owner,961000,,65.7,21,No,1,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019898,2026-11-03,Broker,Nagpur,Maharashtra,West,2,32,Male,Married,Manufacturing,1307000,171,60.7,20.7,No,1,No,Nonpar,20,10,825000,Annual,India,POLICY-ADMIN
+PO019899,2026-11-03,Online,Chennai,Tamil Nadu,South,1,39,Female,Married,Business Owner,1189000,,70.3,27.9,No,1,No,Nonpar,20,10,1500000,Annual,India,POLICY-ADMIN
+PO019900,03/11/2026,Online,Delhi,Delhi,North,1,36,Male,Married,Business Owner,1064000,174,72,23.8,No,1,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO019901,2026-11-03,Agent,Kochi,Kerala,South,2,35,Male,Married,Business Owner,574000,179,117.1,,Yes,1,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019902,2026-11-03,Bancassurance,Kolkata,West Bengal,East,1,37,Male,Married,Business Owner,293000,174,77.3,25.4,No,1,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019903,2026-11-03,Online,Nashik,Maharashtra,West,2,32,Female,Married,Business Owner,435000,162,56.7,21.6,No,0,,HEALTH,1,1,500000,Monthly,India,POLICY-ADMIN
+PO019904,2026-11-03,Agent,Nagpur,Maharashtra,West,2,37,Male,Married,Government,605000,174,93.4,30.9,no,1,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019905,2026-11-03,Agent,Surat,Gujarat,West,2,42,Male,Married,IT / Office,1064000,182,76.8,23.1,No,1,No,HEALTH,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019906,2026-11-03,Agent,Jaipur,Rajasthan,North,2,33,Female,Married,Healthcare,870000,152,48.5,21.1,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019907,2026-11-03,Agent,Solapur,Maharashtra,West,3,29,Male,Single,IT / Office,593000,165,72.5,26.6,No,0,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO019908,2026-11-03,Online,Vadodara,Gujarat,West,2,23,Male,Single,Manufacturing,809000,175,76,24.8,No,0,No,Health,1,1,1500000,Yearly,India,POLICY-ADMIN
+PO019909,03/11/2026,Bancassurance,Chennai,Tamil Nadu,South,1,40,Male,Married,IT / Office,1301000,177,77.6,24.9,No,1,No,Par,15,7,1400000,Quarterly,India,POLICY-ADMIN
+PO019910,03/11/2026,Online,Delhi,Delhi,North,1,32,Female,Married,IT / Office,919000,151,51.8,22.8,True,1,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO019911,2026-11-03,Bancassurance,Guwahati,Assam,East,3,39,Female,Married,Business Owner,463000,,90.4,36.2,No,1,No,Par,15,7,480000,Quarterly,India,POLICY-ADMIN
+PO019912,03-Nov-2026,Agent,Delhi,Delhi,North,1,21,Female,Single,IT / Office,1725000,156,61.2,25.2,No,,No,health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019913,2026-11-03,Bancassurance,Jaipur,Rajasthan,North,2,52,Male,Married,Professional (CA/Lawyer/Architect),516000,174,75.7,25.1,Yes,4,False,ULIP,15,5,1050000,Half-Yearly,India,POLICY-ADMIN
+PO019914,03/11/2026,Online,Chandigarh,Chandigarh,North,2,30,m,Single,Manufacturing,385000,,65.4,21.1,No,0,No,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO019915,2026-11-03,Broker,PUNE,Maharashtra,West,1,27,Male,Married,Business Owner,1401000,182,89.1,27,Yes,0,No,Nonpar,20,10,350000,Quarterly,India,POLICY-ADMIN
+PO019916,03/11/2026,Bancassurance,Nagpur,Maharashtra,West,2,33,Female,Married,Manufacturing,376000,169,85.5,29.9,No,0,0,Par,15,7,290000,Yearly,India,POLICY-ADMIN
+PO019917,2026-11-03,Agent,Guwahati,Assam,East,3,26,Male,Single,Government,193000,172,90.4,30.5,No,0,No,Health,1,1,300000,Half-Yearly,India,POLICY-ADMIN
+PO019918,2026-11-03,Online,Lucknow,Uttar Pradesh,North,2,33,Male,Married,Business Owner,1390000,165,82.7,30.3,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019919,03-Nov-2026,Bancassurance,Cochin,Kerala,South,2,45,Male,Married,Healthcare,923000,181,72.2,22.1,Yes,0,0,ULIP,15,5,1000000,Annual,India,POLICY-ADMIN
+PO019920,03/11/2026,Online,Ahmedabad,Gujarat,West,1,39,Male,Married,IT / Office,869000,172,82.7,27.9,,2,No,Health Plan,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019921,03/11/2026,Online,Delhi,Delhi,North,1,40,Male,Married,Business Owner,519000,162,59.9,22.9,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019922,2026-11-03,Agent,Hyderabad,Telangana,South,1,44,Male,Married,Business Owner,2636000,161,82.1,31.8,True,2,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019923,2026-11-03,Online,Delhi,Delhi,North,1,27,Male,Single,IT / Office,932000,168,77.4,27.5,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019924,2026-11-03,Broker,Lucknow,Uttar Pradesh,North,2,47,Male,Married,Business Owner,2412000,177,75.6,24,No,1,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019925,2026-11-03,Online,Indore,Madhya Pradesh,Central,2,55,Male,Married,Business Owner,3683000,170,78.9,27.4,Yes,3,0,Health,1,1,2500000,Quarterly,India,POLICY-ADMIN
+PO019926,03/11/2026,Bancassurance,Rajkot,Gujarat,West,3,35,Female,Married,Government,789000,159,72,28.4,No,0,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019927,2026-11-03,Online,Chennai,Tamil Nadu,South,1,31,Female,Single,Government,796000,151,42.9,18.8,No,0,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO019928,03.11.2026,,Surat,Gujarat,West,2,24,Female,Single,Government,641000,163,71.9,27.1,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019929,03/11/2026,Bancassurance,Surat,Gujarat,West,2,31,Male,Single,IT / Office,1089000,181,83.1,25.3,No,0,No,Non-Par,20,10,1000000,Half-Yearly,India,POLICY-ADMIN
+PO019930,2026-11-03,Bancassurance,Delhi,Delhi,North,1,31,Male,Married,Manufacturing,742000,169,63.7,22.2,False,0,N,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019931,2026-11-03,Online,Kolkata,West Bengal,East,1,39,Male,Married,Manufacturing,1074000,171,62.6,21.3,True,0,No,ULIP,15,5,2500000,Half-Yearly,India,POLICY-ADMIN
+PO019932,03-Nov-2026,Online,Jalandhar,Punjab,North,3,37,Male,Married,IT / Office,990000,170,71.9,24.9,No,0,No,ULIP,15,5,1000000,Annual,India,POLICY-ADMIN
+PO019933,2026-11-03,Broker,Kochi,Kerala,South,2,32,Male,Married,Healthcare,601000,164,,33.3,No,3,No,Nonpar,14,7,253000,Quarterly,India,POLICY-ADMIN
+PO019934,2026-11-03,,Guwahati,Assam,East,3,29,Male,Single,Government,665000,,61.7,20.3,,0,No,Nonpar,20,10,400000,Annual,India,POLICY-ADMIN
+PO019935,2026-11-03,Bancassurance,Chandigarh,Chandigarh,North,2,36,Male,Married,IT / Office,1133000,166,97.7,35.5,Yes,1,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019936,03-Nov-2026,Agent,Dehradun,Uttarakhand,North,3,45,Female,Married,IT / Office,450000,157,61.4,24.9,N,1,No,health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019937,03-Nov-2026,Broker,Jaipur,Rajasthan,North,2,36,Female,Married,Professional (CA/Lawyer/Architect),645000,160,65.2,25.5,No,1,No,ULIP,15,5,1076000,Annual,India,POLICY-ADMIN
+PO019938,2026-11-03,Bancassurance,Hyderabad,Telangana,South,1,28,Male,Single,IT / Office,384000,177,95.1,30.2,No,0,No,Health,1,1,500000,Yearly,India,POLICY-ADMIN
+PO019939,03/11/2026,Agent,Delhi,Delhi,North,1,34,Female,Married,Government,745000,164,61.1,22.6,No,0,No,Nonpar,20,10,1125000,Monthly,India,POLICY-ADMIN
+PO019940,2026-11-03,Online,Hyderabad,Telangana,South,1,23,Male,Single,Professional (CA/Lawyer/Architect),985000,176,82.7,26.8,No,0,No,Nonpar,12,6,416000,Annual,India,POLICY-ADMIN
+PO019941,03/11/2026,Bancassurance,Chennai,Tamil Nadu,South,1,24,Female,Single,Manufacturing,482000,161,79.7,30.7,No,0,No,Health,1,1,500000,Mthly,India,POLICY-ADMIN
+PO019942,2026-11-03,Bancassurance,Kolkata,West Bengal,East,1,20,Male,Single,Professional (CA/Lawyer/Architect),4.68 Lakh,159,39.8,15.8,no,0,No,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO019943,2026-11-03,Bancassurance,Guwahati,Assam,East,3,27,Female,Single,Professional (CA/Lawyer/Architect),561000,149,47.2,21.3,No,0,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO019944,2026-11-03,Online,Hyderabad,Telangana,South,1,30,Male,Married,Manufacturing,376000,172,72.4,24.4,yes,0,No,Nonpar,15,10,200000,Annual,India,POLICY-ADMIN
+PO019945,03/11/2026,Agent,Kolhapur,Maharashtra,West,3,23,Female,Single,IT / Office,528000,157,49.6,20.1,No,0,No,Nonpar,20,10,140000,Monthly,India,POLICY-ADMIN
+PO019946,2026-11-03,Online,Ahmedabad,Gujarat,West,1,25,Male,Single,Business Owner,1276000,167,58.6,21.1,No,0,No,Nonpar,20,10,1500000,Monthly,India,POLICY-ADMIN
+PO019947,03/11/2026,Online,Pune,Maharashtra,West,1,37,Female,Married,Healthcare,902000,154,60.1,25.2,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019948,03/11/2026,Bancassurance,Mumbai,Maharashtra,West,1,29,Female,Married,IT / Office,3446000,165,65.2,23.9,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019949,2026-11-03,Agent,Delhi,Delhi,North,1,31,Male,Single,IT / Office,1293000,164,55.6,20.6,No,0,No,Nonpar,20,10,500000,Quarterly,India,POLICY-ADMIN
+PO019950,03/11/2026,Agent,Rajkot,Gujarat,West,3,48,Male,Married,IT / Office,510000,165,76,28,Yes,0,No,Health,1,1,300000,Monthly,India,POLICY-ADMIN
+PO019951,2026-11-03,Online,Nashik,Maharashtra,West,2,18,Female,Single,IT / Office,701000,149,56.9,25.8,No,0,No,Health,1,1,500000,Quarterly,India,POLICY-ADMIN
+PO019952,03/11/2026,Agent,Lucknow,Uttar Pradesh,North,2,46,Male,Married,IT / Office,821000,177,79,25.2,No,4,No,ULIP,15,5,1800000,Annual,India,POLICY-ADMIN
+PO019953,03-Nov-2026,Bancassurance,Chandigarh,Chandigarh,North,2,39,Male,Married,Government,444000,172,89.4,30.2,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019954,2026-11-03,Agent,Indore,Madhya Pradesh,Central,2,38,Female,Married,IT / Office,217000,161,51,19.8,Yes,0,No,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO019955,03/11/2026,Online,Rajkot,Gujarat,West,3,25,Male,Single,Government,465000,175,78.9,25.9,No,0,No,Nonpar,20,10,330000,Annual,India,POLICY-ADMIN
+PO019956,03/11/2026,Bancassurance,Indore,Madhya Pradesh,Central,2,41,Male,Married,Healthcare,528000,169,74.2,26.1,Yes,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019957,03/11/2026,Online,Mumbai,Maharashtra,West,1,32,Male,Married,IT / Office,1577000,169,59.4,20.8,Yes,1,No,Par,15,7,1018800,ANNUAL,India,POLICY-ADMIN
+PO019958,2026-11-03,Agent,Bengaluru,Karnataka,South,1,46,f,Married,Manufacturing,743000,160,72.2,28.3,No,3,No,Nonpar,20,10,525000,Annual,India,POLICY-ADMIN
+PO019959,03/11/2026,Agent,Hyderabad,Telangana,South,1,43,Female,Married,IT / Office,1203000,166,83.6,30.5,No,3,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019960,2026-11-04,Bancassurance,Nagpur,Maharashtra,West,2,37,MALE,Married,IT / Office,589000,171,66.4,22.7,N,1,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019961,2026-11-04,Online, Solapur ,Maharashtra,West,3,35,Male,Single,Business Owner,332000,176,61.6,19.9,No,0,No,Nonpar,15,10,360000,Yearly,India,POLICY-ADMIN
+PO019962,2026-11-04,Broker,Nagpur,Maharashtra,West,2,32,Female,Married,Government,500000,161,64.2,24.9,No,1,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019963,2026-11-04,Bancassurance,Patna,Bihar,East,3,45,Female,,IT / Office,400000,158,54.9,21.9,No,1,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019964,04/11/2026,Online,Visakhapatnam,Andhra Pradesh,South,2,18,Male,Married,Government,754000,183,97.6,29,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019965,2026-11-04,Agent,Lucknow,Uttar Pradesh,North,2,42,Female,Married,Government,2741000,170,88.1,30.4,No,2,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019966,04/11/2026,Agent,Indore,Madhya Pradesh,Central,2,53,Male,Married,Business Owner,501000,173,,27.2,Yes,4,No,ULIP,15,5,1034000,Annual,India,POLICY-ADMIN
+PO019967,2026-11-04,Agent,Bhopal,Madhya Pradesh,Central,2,35,Male,Married,IT / Office,297000,173,59.7,20,Yes,1,No,Nonpar,15,10,300000,Annual,India,POLICY-ADMIN
+PO019968,2026-11-04,Agent,Nashik,Maharashtra,West,2,30,Male,Married,Professional (CA/Lawyer/Architect),393000,175,58.7,19.2,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019969,2026-11-04,Agent,Bengaluru City,Karnataka,South,1,19,Male,Single,IT / Office,3117000,160,63.4,24.9,1,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019970,04/11/2026,Agent,Delhi,Delhi,North,1,33,Male,Married,IT / Office,410000,175,78.6,25.7,No,0,No,Nonpar,15,10,500000,Annual,India,POLICY-ADMIN
+PO019971,04/11/2026,Online,Kolhapur,Maharashtra,West,3,35,female,Married,IT / Office,235000,153,73.4,31.4,No,1,No,Nonpar,20,10,120000,Annual,India,POLICY-ADMIN
+PO019972,04/11/2026,Bancassurance,Delhi,Delhi,North,1,37,Male,Married,Business Owner,980000,177,,20.4,Yes,1,No,ULIP,15,5,1650000,Annual,India,POLICY-ADMIN
+PO019973,2026-11-04,Online,Rajkot,Gujarat,West,3,30,Female,Single,Manufacturing,547000,150,63.9,28.6,Yes,0,No,Par,15,7,400000,Quarterly,India,POLICY-ADMIN
+PO019974,2026-11-04,Bancassurance, Kolkata ,West Bengal,East,1,25,Male,Single,Manufacturing,1732000,175,77.8,25.3,yes,0,No,Nonpar,20,10,649000,Annual,India,POLICY-ADMIN
+PO019975,04/11/2026,Bancassurance,Dehradun,Uttarakhand,North,3,42,,Married,Business Owner,323000,170,75.8,26.2,No,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019976,04/11/2026,Bancassurance,Kolkata,West Bengal,East,1,48,m,Married,Business Owner,1339000,173,63.7,21.2,No,2,No,health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO019977,2026-11-04,Online,Visakhapatnam,Andhra Pradesh,South,2,39,Male,Married,Manufacturing,2195000,173,111.3,37.1,No,0,No,Health,1,1,1500000,Half-Yearly,India,POLICY-ADMIN
+PO019978,04/11/2026,Agent,Mumbai,Maharashtra,West,1,38,Female,Married,Healthcare,753000,162,94.8,36.3,no,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO019979,04.11.2026,Agent,Delhi,Delhi,North,1,22,Male,Single,Healthcare,699000,171,65.5,22.4,No,0,No,Nonpar,20,10,300000,Monthly,India,POLICY-ADMIN
+PO019980,2026-11-04,Agent,CHENNAI,Tamil Nadu,South,1,32,Male,Married,Professional (CA/Lawyer/Architect),574000,165,84.5,31.2,No,0,No,Ulip,15,5,300000,Annual,India,POLICY-ADMIN
+PO019981,2026-11-04,Online,Jaipur,Rajasthan,North,2,64,Male,Married,IT / Office,645000,169,66.5,23.2,No,2,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019982,2026-11-04,Online,Surat,Gujarat,West,2,32,Male,Single,Business Owner,798000,181,102.6,31.4,No,0,No,Nonpar,20,10,400000,Annual,India,POLICY-ADMIN
+PO019983,04.11.2026,Bancassurance,Surat,Gujarat,West,2,44,MALE,Married,IT / Office,630000,177,75.1,23.9,No,0,No,ULIP,15,5,500000,Mthly,India,POLICY-ADMIN
+PO019984,2026-11-04,Online,Surat,Gujarat,West,2,37,Male,Married,Professional (CA/Lawyer/Architect),"Rs. 6,05,000",165,79.1,29,No,1,No,Nonpar,20,10,450000,Annual,India,POLICY-ADMIN
+PO019985,2026-11-04,Online,Nagpur,Maharashtra,West,2,31,Male,Single,IT / Office,492000,178,106.9,33.8,No,0,No,Nonpar,20,10,360000,Annual,India,POLICY-ADMIN
+PO019986,04/11/2026,Online,Bengaluru,Karnataka,South,1,33,Male,Married,IT / Office,1305000,177,74.5,23.7,No,1,No,Par,15,7,420000,Annual,India,POLICY-ADMIN
+PO019987,04/11/2026,Online,MUMBAI,Maharashtra,West,1,33,Male,Single,Government,3178000,174,56.5,18.6,Yes,0,No,Nonpar,20,10,2000000,Annual,India,POLICY-ADMIN
+PO019988,2026-11-04,Online,Bengaluru,Karnataka,South,1,34,Female,,Professional (CA/Lawyer/Architect),1415000,170,75.7,26.1,No,0,No,Nonpar,20,10,750000,Annual,India,POLICY-ADMIN
+PO019989,04/11/2026,,Visakhapatnam,Andhra Pradesh,South,2,29,Male,Married,Manufacturing,617000,170,92.6,32,0,1,N,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019990,04/11/2026,Bancassurance,Chennai,Tamil Nadu,South,1,34,Male,Single,Government,1982000,162,58.6,22.2,No,0,No,Nonpar,20,10,2500000,Monthly,India,POLICY-ADMIN
+PO019991,04.11.2026,Online,Indore,Madhya Pradesh,Central,2,42,Male,Married,IT / Office,2637000,175,65.2,21.2,no,0,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO019992,04/11/2026,Bancassurance,Aurangabad,Maharashtra,West,3,35,Male,Married,IT / Office,305000,174,72.9,24.1,0,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019993,2026-11-04,Broker,Chennai,Tamil Nadu,South,1,45,Male,Married,Business Owner,2272000,179,101.5,31.6,No,4,no,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO019994,04/11/2026,Agent,Kochi,Kerala,South,2,35,Male,Married,IT / Office,1369000,155,75.4,31.3,No,1,no,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO019995,2026-11-04,Bancassurance,Chandigarh,Chandigarh,North,2,29,Male,Married,Professional (CA/Lawyer/Architect),2.71L,176,94.9,30.7,No,1,No,Health,1,1,500000,Quarterly,India,POLICY-ADMIN
+PO019996,2026-11-04,Online,Nagpur,Maharashtra,West,2,36,Female,Married,Professional (CA/Lawyer/Architect),754000,157,73.3,29.9,No,0,,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO019997,04/11/2026,Agent,Lucknow,Uttar Pradesh,North,2,39,F,Married,Business Owner,520000,155,69.8,29.1,No,0,No,ULIP,15,5,750000,Monthly,India,POLICY-ADMIN
+PO019998,04/11/2026,Online,Delhi,Delhi,North,1,29,Female,Single,IT / Office,792000,158,70.9,28.3,No,0,No,Nonpar,15,10,548000,Annual,India,POLICY-ADMIN
+PO019999,04/11/2026,Agent,Hyderabad,Telangana,South,1,41,Female,Married,IT / Office,1027000,159,64.4,25.5,No,,No,Nonpar,20,10,1200000,Annual,India,POLICY-ADMIN
+PO020000,04/11/2026,Broker,Delhi ,Delhi,North,1,42,Male,Married,Business Owner,605000,169,48.1,16.9,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020001,2026-11-04,Bancassurance,Hyderabad,Telangana,South,1,22,Female,Single,IT / Office,463000,150,58.8,26.3,No,0,No,Nonpar,20,10,250000,Quarterly,India,POLICY-ADMIN
+PO020002,2026-11-04,Agent,Chandigarh,Chandigarh,North,2,48,Male,Married,IT / Office,478000,176,82.5,26.7,No,2,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN
+PO020003,04/11/2026,Bancassurance,Nashik,Maharashtra,West,2,36,Male,Married,IT / Office,327000,170,69.5,24,Yes,0,No,ULIP,15,5,420000,Annual,India,POLICY-ADMIN
+PO020004,2026-11-04,Online,Visakhapatnam,Andhra Pradesh,South,2,36,Male,Married,Healthcare,2456000,179,82,25.5,Yes,1,no,Health,1,1,,Half-Yearly,India,POLICY-ADMIN
+PO020005,2026-11-04,Agent,Jaipur,Rajasthan,North,2,35,Male,Married,Professional (CA/Lawyer/Architect),1667000,169,80.2,28,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020006,2026-11-04,Broker,Nagpur,Maharashtra,West,2,28,Female,Single,IT / Office,"Rs 15,43,000",174,50.1,16.6,yes,0,no,Health Plan,1,1,2500000,Annual,India,POLICY-ADMIN
+PO020007,2026-11-04,Agent,Hyderabad,Telangana,South,1,39,Male,Married,Business Owner,1405000,167,92,,No,1,No,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO020008,04-Nov-2026,Online,Delhi,Delhi,North,1,29,Female,Married,,1161000,,46.5,18.6,No,2,No,NONPAR,20,5,600000,Annual,India,POLICY-ADMIN
+PO020009,2026-11-04,Agent,Kolkata,West Bengal,East,1,28,m,Married,Manufacturing,833000,158,66.4,26.5,No,0,No,Nonpar,15,10,300000,Annual,India,POLICY-ADMIN
+PO020010,04-Nov-2026,Online,Mumbai,Maharashtra,West,1,47,Male,Married,Manufacturing,714000,175,84.8,27.6,No,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO020011,2026-11-04,Bancassurance,Jalandhar,Punjab,North,3,44,Male,Married,Business Owner,897000,172,56.4,19.1,0,0,No,Par,15,7,1000000,Annual,India,POLICY-ADMIN
+PO020012,2026-11-04,Agent,Hyderabad,Telangana,South,1,46,Male,Married,Business Owner,22.71 L,171,60.2,20.5,No,0,no,Health,1,1,,Annual,India,POLICY-ADMIN
+PO020013,2026-11-04,Agent,Ahmedabad,Gujarat,West,1,29,Female,Married,Healthcare,769000,168,67,23.7,No,0,No,Health,1,1,300000,Quarterly,India,POLICY-ADMIN
+PO020014,2026-11-04,Online,Nashik,Maharashtra,West,2,35,Female,Single,Government,1374000,164,52.7,19.7,No,0,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO020015,2026-11-04,Online,AHMEDABAD,Gujarat,West,1,40,Female,Married,Manufacturing,429000,152,60.1,26.1,N,-1,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO020016,04/11/2026,Bancassurance,Jaipur,Rajasthan,North,2,26,Female,Single,IT / Office,532000,,57.1,22.7,No,0,No,Health,1,1,500000,Monthly,India,POLICY-ADMIN
+PO020017,04/11/2026,Online,Baroda,Gujarat,West,2,33,Female,Married,Government,1169000,,63.3,22.5,No,1,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020018,04-Nov-2026,Agent,Delhi,Delhi,North,1,45,Female,Married,Healthcare,3880000,152,67.2,29.2,,0,No,Health,1,1,2500000,Monthly,India,POLICY-ADMIN
+PO020019,04/11/2026,Bancassurance,Nagpur,Maharashtra,West,2,47,Female,Married,IT / Office,1110000,164,80.2,30,No,4,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO020020,04/11/2026,Online,Mumbai,Maharashtra,West,1,40,Male,Married,Manufacturing,585000,171,61.8,21.1,No,1,No,ULIP,15,5,438000,Annual,India,POLICY-ADMIN
+PO020021,2026-11-04,Online,Bengaluru,Karnataka,South,1,33,Female,Single,IT / Office,829000,152,44,19,No,0,No,Nonpar,20,10,500000,Annual,India,POLICY-ADMIN
+PO020022,04-Nov-2026,Bancassurance,Bhopal,Madhya Pradesh,Central,2,28,Male,Married,Government,888000,181,93.4,28.4,No,0,No,Health,1,1,1000000,,India,POLICY-ADMIN
+PO020023,2026-11-04,Broker,Lucknow,Uttar Pradesh,North,2,31,Female,Married,Professional (CA/Lawyer/Architect),4357000,164,72.6,26.9,No,2,no,Health,1,1,2500000,Half-Yearly,India,POLICY-ADMIN
+PO020024,04-Nov-2026,Agent,Ahmedabad,Gujarat,West,1,26,Female,Single,IT / Office,457000,157,70.9,28.7,N,0,No,Nonpar,20,10,300000,Annual,India,POLICY-ADMIN
+PO020025,2026-11-04,Agent,Ahmedabad,Gujarat,West,1,28,Female,Married,IT / Office,218000,157,60.8,24.7,No,1,No,Nonpar,20,10,200000,Monthly,India,POLICY-ADMIN
+PO020026,2026-11-04,Broker,Coimbatore,Tamil Nadu,South,2,42,Male,Married,IT / Office,876000,174,75,24.8,No,1,No,ULIP,15,5,525000,Yearly,India,POLICY-ADMIN
+PO020027,2026-11-04,Bancassurance,Kolkata,West Bengal,East,1,31,Male,Married,Manufacturing,825000,178,87.9,27.8,No,0,No,health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020028,2026-11-04,Online,Bhopal,Madhya Pradesh,Central,2,28,Female,Married,IT / Office,1080000,162,62.8,24,No,0,No,Nonpar,20,10,717000,Half-Yearly,India,POLICY-ADMIN
+PO020029,04/11/2026,Agent,Bhopal,Madhya Pradesh,Central,2,34,Male,Married,Manufacturing,479000,181,113.6,34.7,Yes,1,No,Par,15,7,400000,Annual,India,POLICY-ADMIN
+PO020030,04.11.2026,Agent,Kolhapur,Maharashtra,West,3,35,Female,Married,IT / Office,569000,163,70.9,26.7,No,0,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020031,04.11.2026,Online,Hyderabad,Telangana,South,1,26,Male,Married,Professional (CA/Lawyer/Architect),532000,164,53.8,19.9,Yes,0,No,Nonpar,15,10,401000,Annual,India,POLICY-ADMIN
+PO020032,04/11/2026,Online,Chennai,Tamil Nadu,South,1,40,Male,Married,Manufacturing,608000,163,98.8,37.3,Yes,0,No,ULIP,15,5,500000,Quarterly,India,POLICY-ADMIN
+PO020033,04/11/2026,Online,Aurangabad,Maharashtra,West,3,23,Male,Single,Government,437000,169,60.3,21.2,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020034,04-Nov-2026,Online,Kolhapur,Maharashtra,West,3,40,Male,Married,Professional (CA/Lawyer/Architect),1015000,173,73,24.4,No,0,No,Health,1,1,1500000,Yearly,India,POLICY-ADMIN
+PO020035,04/11/2026,Bancassurance,Vadodara,Gujarat,West,2,33,Male,Married,IT / Office,531000,175,85.6,28,No,2,No,ULIP,15,5,1000000,Annual,India,POLICY-ADMIN
+PO020036,04-Nov-2026,Bancassurance,Ranchi,Jharkhand,East,3,28,Male,Single,Business Owner,611000,175,88.4,28.9,No,0,No,Par,15,7,600000,Annual,India,POLICY-ADMIN
+PO020037,2026-11-04,Bancassurance,Kolhapur,Maharashtra,West,3,51,Male,Married,Professional (CA/Lawyer/Architect),1463000,183,102.3,30.6,Yes,0,No,Health,1,1,1500000,annual,India,POLICY-ADMIN
+PO020038,04-Nov-2026,Broker,Delhi,Delhi,North,1,43,Female,Married,IT / Office,1023000,156,56.5,23.2,No,0,No,HEALTH,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020039,2026-11-04,Broker,Ranchi,Jharkhand,East,3,46,Female,Married,Business Owner,382000,158,,28.7,No,2,No,ULIP,15,5,420000,Annual,India,POLICY-ADMIN
+PO020040,2026-11-04,Bancassurance,Visakhapatnam,Andhra Pradesh,South,2,32,Male,Married,Manufacturing,675000,161,48,18.4,0,0,No,Nonpar,20,10,420000,Annual,India,POLICY-ADMIN
+PO020041,2026-11-04,Online,Vadodara,Gujarat,West,2,41,Male,Married,Manufacturing,956000,,82.2,30,Yes,1,No,ULIP,15,5,1200000,Semi-Annual,India,POLICY-ADMIN
+PO020042,04/11/2026,Broker,Mumbai,Maharashtra,West,1,29,Male,Married,IT / Office,609000,164,52.9,19.7,No,0,No,ULIP,15,5,600000,Monthly,India,POLICY-ADMIN
+PO020043,2026-11-04,Broker, Coimbatore ,Tamil Nadu,South,2,44,Male,Married,Business Owner,1196000,188,93.6,26.5,No,0,No,Health,1,1,1500000,Half-Yearly,India,POLICY-ADMIN
+PO020044,04/11/2026,Online,Pune,Maharashtra,West,1,48,Male,Married,IT / Office,900000,184,107.9,31.7,No,0,No,Health Plan,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020045,2026-11-04,Online,Delhi,Delhi,North,1,40,Male,Married,Manufacturing,2223000,185,71.4,20.9,No,1,No,ULIP,15,5,2500000,Annual,India,POLICY-ADMIN
+PO020046,04/11/2026,Online,Ranchi,Jharkhand,East,3,18,Male,Single,IT / Office,317000,178,76.1,24,Yes,0,No,Health,1,1,500000,MONTHLY,India,POLICY-ADMIN
+PO020047,2026-11-04,Agent,Visakhapatnam,Andhra Pradesh,South,2,40,Female,Married,Healthcare,1390000,155,73.7,30.5,N,0,N,ULIP,15,5,1650000,Half-Yearly,India,POLICY-ADMIN
+PO020048,04/11/2026,Bancassurance,Pune,Maharashtra,West,1,41,Male,Married,,582000,165,73.1,26.8,Yes,1,No,Nonpar,15,10,400000,Half-Yearly,India,POLICY-ADMIN
+PO020049,04/11/2026,Agent,Guwahati,Assam,East,3,36,Female,Married,Professional (CA/Lawyer/Architect),2179000,155,77.7,32.2,No,0,No,health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO020050,2026-11-04,Bancassurance,Kolkata,West Bengal,East,1,39,Male,Married,Business Owner,1867000,,89.5,30,No,2,No,Nonpar,20,10,1000000,Quarterly,India,POLICY-ADMIN
+PO020051,2026-11-04,Broker,Bombay,Maharashtra,West,1,19,Male,Single,Business Owner,644000,176,96.1,31.2,No,0,No,Health,1,1,500000,Monthly,India,POLICY-ADMIN
+PO020052,04/11/2026,Online,Coimbatore,Tamil Nadu,South,2,29,m,Married,IT / Office,487000,160,52,20.4,Yes,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO020053,2026-11-04,Agent,Solapur,Maharashtra,West,3,28,,Married,Manufacturing,754000,175,65.5,21.5,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020054,2026-11-04,Online,Kolkata,West Bengal,East,1,29,Male,Married,Business Owner,1045000,178,80.2,25.2,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020055,04/11/2026,Online,Patna,Bihar,East,3,32,Male,Married,Healthcare,694000,169,55.5,19.4,Yes,2,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020056,2026-11-04,Bancassurance,Guwahati,Assam,East,3,27,Male,Married,Manufacturing,"INR 4,09,000",172,82.7,28.1,Yes,0,No,Nonpar,20,10,416500,Quarterly,India,POLICY-ADMIN
+PO020057,2026-11-04,Broker,Indore,Madhya Pradesh,Central,2,33,Male,Single,,598000,164,,25,No,0,No,Par,15,7,750000,Annual,India,POLICY-ADMIN
+PO020058,04/11/2026,Bancassurance,Lucknow,Uttar Pradesh,North,2,22,MALE,Single,Business Owner,632000,182,60.4,18.2,False,0,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO020059,2026-11-04,Bancassurance,Ranchi,Jharkhand,East,3,32,Male,Married,IT / Office,5.58L,169,72.5,25.3,No,,No,Health,1,1,500000,Half Yearly,India,POLICY-ADMIN
+PO020060,2026-11-04,Online,Pune,Maharashtra,West,1,36,M,Married,IT / Office,6593000,169,53.7,18.8,No,0,No,Nonpar,20,10,2062000,Annual,India,POLICY-ADMIN
+PO020061,04/11/2026,Bancassurance,Kochi,Kerala,South,2,38,Male,Married,Professional (CA/Lawyer/Architect),604000,157,49.4,19.9,No,1,No,ULIP,15,5,1500000,Quarterly,India,POLICY-ADMIN
+PO020062,04/11/2026,Agent,Guwahati,Assam,East,3,39,Male,Married,IT / Office,827000,165,71.2,26.2,False,1,No,ULIP,15,5,2000000,Monthly,India,POLICY-ADMIN
+PO020063,2026-11-04,Bancassurance,Bhopal,Madhya Pradesh,Central,2,34,Male,Married,Business Owner,926000,157,54.1,21.9,Yes,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020064,2026-11-04,Online,Chandigarh,Chandigarh,North,2,43,Male,Married,Manufacturing,538000,176,93,30.1,N,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020065,04/11/2026,Broker,Indore,Madhya Pradesh,Central,2,38,Male,Married,Government,841000,178,69.7,22,No,1,No,Health,1,1,1000000,annual,India,POLICY-ADMIN
+PO020066,04/11/2026,Online,Visakhapatnam,Andhra Pradesh,South,2,42,Male,Married,IT / Office,1293000,178,60.4,19,N,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020067,04/11/2026,Bancassurance,Bengaluru,Karnataka,South,1,44,Female,Married,IT / Office,1127000,164,68.6,25.4,No,1,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO020068,2026-11-04,Bancassurance,Indore,Madhya Pradesh,Central,2,31,Female,Married,IT / Office,"Rs. 12,83,000",154,69.4,29.2,Yes,0,No,ULIP,15,5,2142000,Annual,India,POLICY-ADMIN
+PO020069,04-Nov-2026,Agent,Indore,Madhya Pradesh,Central,2,32,Male,Single,Business Owner,1281000,176,80.2,25.8,No,0,No,Nonpar,12,6,1000000,Monthly,India,POLICY-ADMIN
+PO020070,04/11/2026,Bancassurance,Ranchi,Jharkhand,East,3,30,Male,Single,Business Owner,1436000,175,68.4,22.4,No,0,No,Nonpar,20,10,1500000,Yearly,India,POLICY-ADMIN
+PO020071,2026-11-04,Online,Lucknow,Uttar Pradesh,North,2,31,Male,Married,IT / Office,3676000,159,89,35.4,No,0,No,Health,1,1,2500000,Monthly,India,POLICY-ADMIN
+PO020072,04/11/2026,Broker,Kolkata,West Bengal,East,1,52,Male,Married,,1201000,178,92.7,29.2,No,1,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO020073,2026-11-04,Agent,Chandigarh,Chandigarh,North,2,54,Female,Married,IT / Office,738000,162,72.9,27.8,No,3,No,ULIP,15,5,750000,ANNUAL,India,POLICY-ADMIN
+PO020074,04-Nov-2026,Bancassurance,Chandigarh,Chandigarh,North,2,31,Female,Married,Healthcare,602000,162,80.6,30.9,No,0,N,Nonpar,20,10,720000,Annual,India,POLICY-ADMIN
+PO020075,2026-11-04,Agent,Mumbai,Maharashtra,West,1,36,Female,Single,Healthcare,1055000,164,63.6,23.6,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020076,2026-11-04,Broker,Mumbai,Maharashtra,West,1,33,M,Married,Healthcare,599000,156,69.5,28.4,No,1,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020077,2026-11-04,Online,Indore,Madhya Pradesh,Central,2,39,Male,Married,IT / Office,413000,1.71,76.7,26.2,N,3,no,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020078,2026-11-04,Bancassurance,Chennai,Tamil Nadu,South,1,42,Male,Married,Professional (CA/Lawyer/Architect),570000,161,71.9,27.8,No,2,,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020079,04-Nov-2026,Online,Coimbatore,Tamil Nadu,South,2,46,Male,Married,IT / Office,712000,160,55.2,21.5,No,3,No,Nonpar,20,10,1500000,Annual,India,POLICY-ADMIN
+PO020080,04-Nov-2026,Bancassurance,Indore,Madhya Pradesh,Central,2,44,,Married,Business Owner,1580000,163,61.5,23.2,No,0,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO020081,04/11/2026,Online,Chandigarh,Chandigarh,North,2,25,Female,Married,IT / Office,528000,152,57.4,24.8,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020082,04-Nov-2026,Broker,Hyderabad,Telangana,South,1,21,,Single,Professional (CA/Lawyer/Architect),269000,163,65,24.6,no,0,0,Health,1,1,500000,Half-Yearly,India,POLICY-ADMIN
+PO020083,2026-11-04,Bancassurance,PUNE,Maharashtra,West,1,26,Female,Single,Business Owner,1242000,156,58.2,23.9,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020084,2026-11-04,Bancassurance,Mumbai,Maharashtra,West,1,34,Male,Married,Business Owner,836000,169,69.6,24.5,No,1,No,Nonpar,12,6,825000,Half-Yearly,India,POLICY-ADMIN
+PO020085,2026-11-04,Agent,Chandigarh,Chandigarh,North,2,42,Female,Married,Business Owner,642000,163,87.3,32.9,No,1,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020086,2026-11-04,Bancassurance,Hyderabad,Telangana,South,1,27,Male,Single,Business Owner,555000,171,77.6,26.6,Yes,,No,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO020087,04/11/2026,Bancassurance,Rajkot,Gujarat,West,3,32,Male,Married,IT / Office,406000,184,94.9,27.9,No,0,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020088,2026-11-04,Online,CHENNAI,Tamil Nadu,South,1,41,Male,Married,Business Owner,927000,174,90.1,29.8,No,0,No,Nonpar,20,10,1125000,Annual,India,POLICY-ADMIN
+PO020089,2026-11-04,Online,MUMBAI,Maharashtra,West,1,42,Female,Married,IT / Office,2188000,153,77.9,33.1,No,1,No,Nonpar,20,10,1367000,Quarterly,India,POLICY-ADMIN
+PO020090,2026-11-04,Bancassurance,Bangalore,Karnataka,South,1,30,Male,Married,Manufacturing,558000,164,61.6,22.8,No,0,No,Health,1,1,500000,Monthly,India,POLICY-ADMIN
+PO020091,04/11/2026,Online,Bengaluru,Karnataka,South,1,36,Male,Single,Healthcare,814000,165,75.5,27.6,Yes,0,False,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO020092,05/11/2026,Online,Jaipur,Rajasthan,North,2,26,Male,Single,Healthcare,971000,175,72.8,23.7,No,0,,Nonpar,20,10,350000,Annual,India,POLICY-ADMIN
+PO020093,05/11/2026,Broker,Chennai,Tamil Nadu,South,1,29,Female,Married,Healthcare,471000,163,65,24.4,No,0,No,Nonpar,20,10,210000,Annual,India,POLICY-ADMIN
+PO020094,2026-11-05,,Visakhapatnam,Andhra Pradesh,South,2,36,f,Married,Manufacturing,458000,153,64,27.3,No,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO020095,2026-11-05,Online,Bhopal,Madhya Pradesh,Central,2,40,Male,Married,,531000,176,72.1,23.2,No,1,No,Health,1,1,300000,Half-Yearly,India,POLICY-ADMIN
+PO020096,05-Nov-2026,Bancassurance,Bhopal,Madhya Pradesh,Central,2,38,m,Married,Manufacturing,430000,175,82.4,26.9,Yes,1,No,ULIP,15,5,750000,Quarterly,India,POLICY-ADMIN
+PO020097,2026-11-05,Bancassurance,Chennai,Tamil Nadu,South,1,25,,Single,Professional (CA/Lawyer/Architect),1325000,160,76.3,29.7,1,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO020098,2026-11-05,Agent,Patna,Bihar,East,3,37,Male,Married,Business Owner,1695000,181,72.2,22.1,No,0,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO020099,2026-11-05,Bancassurance,Chandigarh,Chandigarh,North,2,31,Male,Married,Business Owner,961000,185,126.1,36.9,Yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020100,2026-11-05,Bancassurance,MUMBAI,Maharashtra,West,1,18,Male,Single,IT / Office,1349000,1.54,67.5,,0,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020101,05/11/2026,Broker,Delhi,Delhi,North,1,42,Male,Married,Government,497000,160,73,28.6,,0,No,ULIP,15,5,400000,Annual,India,POLICY-ADMIN
+PO020102,2026-11-05,Bancassurance,Mumbai,Maharashtra,West,1,36,Female,Married,Professional (CA/Lawyer/Architect),231000,167,66,23.7,No,1,No,Par,15,7,178800,Half-Yearly,India,POLICY-ADMIN
+PO020103,2026-11-05,Agent,Delhi,Delhi,North,1,36,F,Married,IT / Office,1196000,160,77.1,30,No,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020104,05/11/2026,Agent,Kochi,Kerala,South,2,36,Male,Married,Government,1417000,167,59.7,21.5,No,0,No,Health,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO020105,2026-11-05,Bancassurance,Surat,Gujarat,West,2,23,Female,Single,Business Owner,267000,155,74.2,30.7,No,0,No,Health,1,1,500000,annual,India,POLICY-ADMIN
+PO020106,05.11.2026,Online,Aurangabad,Maharashtra,West,3,46,Male,Married,Business Owner,253000,153,58,24.7,0,4,No,Nonpar,15,10,246400,Annual,India,POLICY-ADMIN
+PO020107,2026-11-05,Online,Lucknow,Uttar Pradesh,North,2,29,f,Married,Professional (CA/Lawyer/Architect),647000,156,72.6,29.7,No,0,No,Health,1,1,500000,Half-Yearly,India,POLICY-ADMIN
+PO020108,2026-11-05,Online,Jalandhar,Punjab,North,3,42,Male,Married,Business Owner,503000,182,103.3,31.3,No,0,No,Health,1,1,1000000,ANNUAL,India,POLICY-ADMIN
+PO020109,05/11/2026,Online,Nashik,Maharashtra,West,2,36,Female,Married,Business Owner,3041000,162,64.2,24.4,No,1,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO020110,2026-11-05,Bancassurance,Delhi,Delhi,North,1,25,Female,Married,Government,679000,154,53.3,22.4,No,1,0,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020111,05-Nov-2026,Agent,Kochi,Kerala,South,2,56,f,Married,Manufacturing,595000,161,73.5,28.4,No,0,No,Health,1,1,1000000,Yearly,India,POLICY-ADMIN
+PO020112,2026-11-05,Online,Pune,Maharashtra,West,1,41,Female,Married,Manufacturing,750000,162,70.5,27,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020113,2026-11-05,Online,Solapur,Maharashtra,West,3,40,Female,Married,Business Owner,1006000,147,50.9,23.7,0,2,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020114,2026-11-05,Online,Ranchi,Jharkhand,East,3,44,Male,Married,IT / Office,988000,168,59.1,20.9,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020115,05/11/2026,Agent, Bengaluru ,Karnataka,South,1,64,Male,Married,Business Owner,1385000,172,64.8,22,Yes,1,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO020116,2026-11-05,Agent,Chennai,Tamil Nadu,South,1,27,,Married,Professional (CA/Lawyer/Architect),457000,166,84.6,30.6,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020117,2026-11-05,Bancassurance,Coimbatore,Tamil Nadu,South,2,19,Male,Single,IT / Office,1558000,167,61.7,22.2,No,0,No,Health,1,1,2500000,Half-Yearly,India,POLICY-ADMIN
+PO020118,2026-11-05,Broker,Hyderabad,Telangana,South,1,24,Female,Single,IT / Office,877000,157,52.2,21.2,No,0,No,Par,15,7,600000,Annual,India,POLICY-ADMIN
+PO020119,2026-11-05,Online,Mumbai,Maharashtra,West,1,28,Male,Married,IT / Office,533000,166,70.7,25.5,,0,Yes,Nonpar,20,10,300000,Half-Yearly,India,POLICY-ADMIN
+PO020120,05-Nov-2026,Bancassurance,Bengaluru,Karnataka,South,1,41,Female,Married,Healthcare,846000,159,71.4,28.3,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020121,2026-11-05,Bancassurance,Nagpur,Maharashtra,West,2,33,Female,Married,Manufacturing,948000,152,,17.4,No,0,0,Health Plan,1,1,1500000,Quarterly,India,POLICY-ADMIN
+PO020122,2026-11-05,Agent,Dehradun,Uttarakhand,North,3,27,Male,Married,Healthcare,769000,174,91.5,30.3,No,1,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO020123,05/11/2026,Online,Nagpur,Maharashtra,West,2,28,Male,Married,Business Owner,1105000,175,87.2,28.4,No,0,False,Health,1,1,2500000,Quarterly,India,POLICY-ADMIN
+PO020124,2026-11-05,Online,Mumbai,Maharashtra,West,1,38,Male,Married,Manufacturing,925000,163,68.5,25.8,no,1,True,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020125,05/11/2026,Online,Delhi,Delhi,North,1,36,Male,Married,Professional (CA/Lawyer/Architect),994000,,77,17.4,No,0,No,Health Plan,1,1,1500000,Half-Yearly,India,POLICY-ADMIN
+PO020126,05/11/2026,, Ahmedabad,Gujarat,West,1,29,Male,Married,,463000,169,78.4,27.5,No,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020127,2026-11-05,Agent,Chennai,Tamil Nadu,South,1,27,Male,Single,Business Owner,1013000,171,70.9,24.2,No,0,No,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO020128,2026-11-05,Agent,Vadodara,Gujarat,West,2,24,Male,Single,Healthcare,1252000,178,129.9,,Yes,0,No,Nonpar,15,10,600000,Annual,India,POLICY-ADMIN
+PO020129,2026-11-05,Bancassurance,Solapur,Maharashtra,West,3,26,Female,Married,IT / Office,1694000,158,65,26.1,No,1,No,Nonpar,20,10,1050000,Monthly,India,POLICY-ADMIN
+PO020130,2026-11-05,Agent,Vadodara,Gujarat,West,2,42,Male,Married,IT / Office,553000,166,88.4,32,No,0,No,Health,1,1,500000,Quarterly,India,POLICY-ADMIN
+PO020131,05/11/2026,Online,Kolkata,West Bengal,East,1,40,Female,Married,IT / Office,844000,162,74.5,28.2,No,2,No,Par,15,7,1000000,Annual,India,POLICY-ADMIN
+PO020132,05-Nov-2026,Online,Delhi,Delhi,North,1,30,Female,Single,Government,745000,159,77,30.5,No,0,No,Nonpar,20,10,250000,Annual,India,POLICY-ADMIN
+PO020133,05/11/2026,Agent,Indore,Madhya Pradesh,Central,2,28,Male,Single,IT / Office,238000,171,68.3,23.3,yes,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020134,2026-11-05,Online,Delhi,Delhi,North,1,45,Male,Married,IT / Office,1439000,171,57.4,19.7,No,3,,ULIP,15,5,700000,Annual,India,POLICY-ADMIN
+PO020135,2026-11-05,Agent,Kolhapur,Maharashtra,West,3,42,Male,Married,IT / Office,777000,181,84.6,25.7,Yes,1,No,Nonpar,20,10,400000,Annual,India,POLICY-ADMIN
+PO020136,05/11/2026,Broker,Bengaluru City,Karnataka,South,1,21,Female,Single,IT / Office,1610000,163,51.8,19.6,no,0,No,HEALTH,1,1,2500000,Annual,India,POLICY-ADMIN
+PO020137,2026-11-05,Agent,Chennai,Tamil Nadu,South,1,42,Female,Married,Manufacturing,1542000,160,50.3,19.7,No,0,No,Par,15,7,2000000,Quarterly,India,POLICY-ADMIN
+PO020138,2026-11-05,Online,Kochi,Kerala,South,2,23,Male,Married,Manufacturing,485000,172,81.3,27.5,No,0,No,Health,1,1,500000,Quarterly,India,POLICY-ADMIN
+PO020139,05/11/2026,Online,pune,Maharashtra,West,1,32,Male,Married,IT / Office,2573000,181,89.7,27.3,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020140,05/11/2026,Bancassurance,Jaipur,Rajasthan,North,2,40,female,Married,Business Owner,701000,140,53.7,27.5,no,0,No,Nonpar,15,10,720000,Annual,India,POLICY-ADMIN
+PO020141,05/11/2026,Bancassurance,Aurangabad,Maharashtra,West,3,39,Male,Married,Professional (CA/Lawyer/Architect),1981000,161,56.9,22,No,1,No,Health,1,1,1000000,Half-Yearly,India,POLICY-ADMIN
+PO020142,2026-11-05,Online,Lucknow,Uttar Pradesh,North,2,31,Male,Married,Healthcare,905000,163,76.2,28.8,No,1,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020143,05/11/2026,Agent,Jalandhar,Punjab,North,3,24,Male,Single,Government,959000,175,66.6,21.8,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020144,05/11/2026,Agent,Patna,Bihar,East,3,21,Female,Single,IT / Office,787000,,49.7,17.2,No,0,No,Nonpar,20,10,750000,Quarterly,India,POLICY-ADMIN
+PO020145,2026-11-05,Agent,Ahmedabad,Gujarat,West,1,37,Male,Married,Business Owner,1405000,187,93.7,26.9,No,0,No,Nonpar,15,10,1000000,Annual,India,POLICY-ADMIN
+PO020146,2026-11-05,Agent,Kochi,Kerala,South,2,28,Male,Single,Government,567000,171,63.1,21.7,No,0,No,Health,1,1,500000,Monthly,India,POLICY-ADMIN
+PO020147,2026-11-05,Agent,Kolkata,West Bengal,East,1,36,Male,Married,Healthcare,1331000,169,60.1,21,No,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020148,2026-11-05,Bancassurance,Jalandhar,Punjab,North,3,43,Female,Married,Manufacturing,1138000,151,73,31.8,No,1,No,Nonpar,20,10,600000,Monthly,India,POLICY-ADMIN
+PO020149,05-Nov-2026,Broker,Hyderabad,Telangana,South,1,32,Male,Married,Manufacturing,2110000,173,76,25.5,,0,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO020150,2026-11-05,Online,MUMBAI,Maharashtra,West,1,31,Female,Married,Business Owner,604000,151,61.9,27.3,No,0,,Health,1,1,1000000,monthly,India,POLICY-ADMIN
+PO020151,2026-11-05,Agent,Hyderabad,Telangana,South,1,34,Male,Single,IT / Office,2151000,167,,25.8,No,0,No,Nonpar,20,10,2000000,Annual,India,POLICY-ADMIN
+PO020152,05-Nov-2026,,Delhi,Delhi,North,1,28,Male,Single,Manufacturing,522000,173,90.7,30.3,No,0,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020153,05/11/2026,Broker,Chennai,Tamil Nadu,South,1,42,Male,Married,IT / Office,1711000,172,78.8,,No,1,No,Health,1,1,2500000,Annual,India,POLICY-ADMIN
+PO020154,2026-11-05,Broker,Nagpur,Maharashtra,West,2,35,Male,Married,IT / Office,668000,164,76.7,28.4,Yes,2,No,Nonpar,20,10,400000,Annual,India,POLICY-ADMIN
+PO020155,2026-11-05,Online,Chennai,Tamil Nadu,South,1,40,Male,Married,IT / Office,1328000,183,65.7,19.5,Yes,0,No,ULIP,15,5,1061000,Annual,India,POLICY-ADMIN
+PO020156,2026-11-05,Agent,Guwahati,Assam,East,3,24,Male,Single,Manufacturing,720000,189,81,22.7,No,0,No,Nonpar,20,10,688000,Half-Yearly,India,POLICY-ADMIN
+PO020157,05/11/2026,Agent,Nagpur,Maharashtra,West,2,30,Female,Single,Business Owner,497000,155,65,27.2,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020158,05.11.2026,Bancassurance,Nagpur,Maharashtra,West,2,34,Female,Married,Professional (CA/Lawyer/Architect),1582000,160,65.5,25.7,No,1,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020159,05/11/2026,Agent,Kolkata,West Bengal,East,1,33,Male,Single,Business Owner,789000,174,62.3,20.5,Yes,0,No,Nonpar,20,10,816000,Annual,India,POLICY-ADMIN
+PO020160,05.11.2026,Bancassurance,Kolkata ,West Bengal,East,1,24,Female,Single,Professional (CA/Lawyer/Architect),750000,155,60.2,25.2,No,0,No,Nonpar,20,10,497000,Annual,India,POLICY-ADMIN
+PO020161,2026-11-05,Broker,Mumbai,Maharashtra,West,1,22,Male,Married,IT / Office,658000,166,66,24.1,No,0,No,non par,20,5,300000,Annual,India,POLICY-ADMIN
+PO020162,05-Nov-2026,Broker,Nagpur,Maharashtra,West,2,34,m,Married,Manufacturing,536000,171,94.1,32.3,Yes,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020163,2026-11-05,Online,Guwahati,Assam,East,3,33,Male,Married,IT / Office,1020000,151,53.1,23.4,Yes,0,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020164,2026-11-05,Online,Visakhapatnam,Andhra Pradesh,South,2,42,FEMALE,Married,IT / Office,1039000,162,68.4,26,No,0,No,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO020165,05/11/2026,Broker,Dehradun,Uttarakhand,North,3,33,Male,Married,IT / Office,450000,173,62.6,21,No,1,No,Health,1,1,300000,half-yearly,India,POLICY-ADMIN
+PO020166,2026-11-05,Agent,Coimbatore,Tamil Nadu,South,2,24,Female,Single,IT / Office,737000,161,57.6,22.3,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020167,2026-11-05,Online,Visakhapatnam,Andhra Pradesh,South,2,25,MALE,Single,IT / Office,817000,170,58.1,20,No,0,0,Nonpar,20,10,469000,Annual,India,POLICY-ADMIN
+PO020168,05-Nov-2026,Bancassurance,Solapur,Maharashtra,West,3,42,Male,Married,Business Owner,782000,172,71.1,24.1,Yes,1,No,ULIP,15,5,1200000,Quarterly,India,POLICY-ADMIN
+PO020169,2026-11-05,Bancassurance,Kolkata,West Bengal,East,1,21,Female,Single,IT / Office,560000,152,55.4,23.9,Yes,0,No,ULIP,15,5,825300,Annual,India,POLICY-ADMIN
+PO020170,05/11/2026,Agent,Delhi,Delhi,North,1,36,Male,Married,Government,648000,157,66.5,26.9,No,2,N,Nonpar,20,10,210000,Annual,India,POLICY-ADMIN
+PO020171,05-Nov-2026,Online,Pune,Maharashtra,West,1,36,Male,Married,Manufacturing,736000,178,69.2,21.9,No,0,No,Nonpar,20,10,500000,monthly,India,POLICY-ADMIN
+PO020172,2026-11-05,Online,Surat,Gujarat,West,2,44,Male,Married,IT / Office,568000,173,57.9,19.4,True,,No,Nonpar,20,10,600000,Annual,India,POLICY-ADMIN
+PO020173,2026-11-05,Bancassurance,Lucknow,Uttar Pradesh,North,2,18,Female,Single,IT / Office,349000,164,76,28.3,No,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO020174,2026-11-05,Agent,Solapur,Maharashtra,West,3,42,Male,Married,Business Owner,754000,178,83.5,26.2,No,3,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020175,2026-11-05,Agent,Dehradun,Uttarakhand,North,3,22,Male,Single,Professional (CA/Lawyer/Architect),215000,167,76.6,27.4,No,0,No,Health,1,1,300000,Annual,India,POLICY-ADMIN
+PO020176,2026-11-05,Broker,Kolhapur,Maharashtra,West,3,41,Male,Married,Professional (CA/Lawyer/Architect),,174,54.1,17.9,No,0,No,Health,1,1,1000000,Monthly,India,POLICY-ADMIN
+PO020177,2026-11-05,Broker,Patna,Bihar,East,3,49,Female,Married,Healthcare,480000,155,67.2,27.8,No,1,N,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020178,2026-11-05,Bancassurance,Vizag,Andhra Pradesh,South,2,21,Female,Single,Government,1894000,153,37.1,15.8,No,0,No,HEALTH,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020179,2026-11-05,Online,Delhi,Delhi,North,1,32,Female,Married,IT / Office,1227000,163,71.3,27,No,2,No,Nonpar,20,5,1000000,Half-Yearly,India,POLICY-ADMIN
+PO020180,2026-11-05,Broker,Chandigarh,Chandigarh,North,2,42,Male,Married,Manufacturing,484000,163,73.2,27.7,No,1,No,ULIP,15,5,525000,Annual,India,POLICY-ADMIN
+PO020181,05.11.2026,Agent,Chennai,Tamil Nadu,South,1,35,Male,Married,Manufacturing,1174000,160,73.4,28.8,No,0,No,Health,1,1,500000,Annual,India,POLICY-ADMIN
+PO020182,2026-11-05,Agent,Bengaluru,Karnataka,South,1,25,F,Single,IT / Office,5.59L,153,59.4,25.5,No,0,No,Par,15,7,450000,Annual,India,POLICY-ADMIN
+PO020183,05/11/2026,Online,Mysuru,Karnataka,South,3,42,Male,Married,Manufacturing,408000,,80.6,30.1,No,1,No,ULIP,15,5,350000,Annual,India,POLICY-ADMIN
+PO020184,2026-11-05,Online,Visakhapatnam,Andhra Pradesh,South,2,43,Female,Married,Business Owner,383000,156,64.6,26.5,no,0,No,ULIP,15,5,431000,Annual,India,POLICY-ADMIN
+PO020185,05-Nov-2026,Broker,Lucknow,Uttar Pradesh,North,2,42,Male,Married,Manufacturing,589000,172,69.9,23.5,Yes,1,No,Health,1,1,1500000,Half-Yearly,India,POLICY-ADMIN
+PO020186,2026-11-05,Bancassurance,Pune,Maharashtra,West,1,54,Male,Married,IT / Office,408000,179,83.2,26.1,No,2,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020187,2026-11-05,Bancassurance,Delhi,Delhi,North,1,24,Male,Single,Manufacturing,1550000,178,58.6,18.6,No,0,No,Health Plan,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020188,2026-11-05,Bancassurance,Chennai,Tamil Nadu,South,1,37,,Married,Professional (CA/Lawyer/Architect),776000,147,61.6,,No,0,No,ULIP,15,5,825000,Annual,India,POLICY-ADMIN
+PO020189,2026-11-05,Agent,Chandigarh,Chandigarh,North,2,43,Female,Married,Business Owner,408000,,56,22.2,No,0,No,HEALTH,1,1,500000,Half-Yearly,India,POLICY-ADMIN
+PO020190,05-Nov-2026,Agent,Chandigarh,Chandigarh,North,2,31,Female,Single,IT / Office,982000,149,37.1,16.8,No,0,No,Health,1,1,1500000,Monthly,India,POLICY-ADMIN
+PO020191,2026-11-05,Broker,Mumbai,Maharashtra,West,1,50,Male,Married,Business Owner,212000,174,82.6,27.2,Yes,1,No,health,1,1,500000,Quarterly,India,POLICY-ADMIN
+PO020192,2026-11-05,Bancassurance,Nagpur,Maharashtra,West,2,31,Male,Married,Business Owner,28.88 Lakh,178,86.8,27.5,No,1,No,ULIP,15,5,2200000,Annual,India,POLICY-ADMIN
+PO020193,2026-11-05,Online,Rajkot,Gujarat,West,3,50,Male,Married,IT / Office,988000,171,83.7,28.5,No,0,No,HEALTH,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020194,2026-11-05,Agent,Coimbatore,Tamil Nadu,South,2,26,male,Married,Government,1088000,164,57.2,21.3,No,0,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020195,2026-11-05,Online,Pune,Maharashtra,West,1,47,Female,Married,IT / Office,1521000,173,80.3,26.8,No,2,No,Health,1,1,1500000,Annual,India,POLICY-ADMIN
+PO020196,2026-11-05,Agent,Coimbatore,Tamil Nadu,South,2,38,Female,Married,Government,1543000,161,68.7,26.6,No,0,No,Nonpar,20,10,1800000,Monthly,India,POLICY-ADMIN
+PO020197,2026-11-05,Online,Lucknow,Uttar Pradesh,North,2,42,Female,Married,Healthcare,702000,163,56.7,21.3,No,1,No,ULIP,15,5,600000,Half-Yearly,India,POLICY-ADMIN
+PO020198,05/11/2026,Agent,Hyderabad,Telangana,South,1,33,Female,Married,Manufacturing,1033000,151,,25.8,Yes,1,No,ULIP,15,5,992000,ANNUAL,India,POLICY-ADMIN
+PO020199,2026-11-05,Agent,Vadodara,Gujarat,West,2,27,Male,Married,Government,549000,165,64.1,23.6,no,1,No,Health,1,1,1000000,Annual,India,POLICY-ADMIN
+PO020200,05/11/2026,Agent,CHENNAI,Tamil Nadu,South,1,34,Female,Married,Professional (CA/Lawyer/Architect),1603000,155,64.2,26.8,No,,No,Health,1,1,1000000,Quarterly,India,POLICY-ADMIN

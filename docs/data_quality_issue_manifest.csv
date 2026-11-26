@@ -1,0 +1,72 @@
+dataset,column,issue,rows_affected,note
+loan_applications_raw,age,impossible value (0 / 150 / 999),31,
+loan_applications_raw,age,under-18 applicant (invalid for a loan contract),20,
+loan_applications_raw,monthly_income_inr,negative income (sign error),21,
+loan_applications_raw,monthly_income_inr,outlier x100 (extra zeros),28,detect via IQR / income-to-loan ratio
+loan_applications_raw,tenure_months,impossible tenure (0 / 999),19,
+loan_applications_raw,cibil_score,invalid sentinel (0 / 999 / -99 / 9999); legitimate -1 = new-to-credit,33,
+loan_applications_raw,interest_rate_pct,unit error (basis points instead of percent),42,values > 100 -> divide by 100
+loan_applications_raw,years_employed,experience exceeds age - 18,116,
+loan_applications_raw,loan_amount_inr,reported in thousands (x1000 too small),58,ratio to income reveals it
+loan_applications_raw,monthly_income_inr,missing value,424,MAR (more missing for self-employed)
+loan_applications_raw,years_employed,missing value,692,MCAR
+loan_applications_raw,dependents,missing value,425,MCAR
+loan_applications_raw,employment_type,missing value,262,MCAR
+loan_applications_raw,marital_status,missing value,238,MCAR
+loan_applications_raw,gender,missing value,221,MCAR
+loan_applications_raw,property_area,missing value,345,MCAR
+loan_applications_raw,cibil_score,missing value,331,MCAR (blank; -1 is a separate legitimate code)
+loan_applications_raw,credit_history_flag,missing value,1409,MCAR
+loan_applications_raw,interest_rate_pct,missing value,223,MCAR
+loan_applications_raw,co_applicant_income_inr,missing value,232,MCAR
+loan_applications_raw,home_ownership,missing value,506,MCAR
+loan_applications_raw,past_delinquency_24m,missing value,320,MCAR
+loan_applications_raw,residential_assets_inr,missing value,342,MNAR (more missing when true value is 0)
+loan_applications_raw,collateral_value_inr,missing for a secured loan,226,
+loan_applications_raw,gender,inconsistent category labels (case / abbreviation / spelling),2800,
+loan_applications_raw,marital_status,inconsistent category labels (case / abbreviation / spelling),2268,
+loan_applications_raw,education,inconsistent category labels (case / abbreviation / spelling),2354,
+loan_applications_raw,employment_type,inconsistent category labels (case / abbreviation / spelling),2390,
+loan_applications_raw,city,inconsistent category labels (case / abbreviation / spelling),932,alias table -> canonical city
+loan_applications_raw,loan_purpose,inconsistent category labels (case / abbreviation / spelling),1004,
+loan_applications_raw,loan_status,inconsistent category labels (case / abbreviation / spelling),1756,target label spelling variants
+loan_applications_raw,city,leading/trailing whitespace,705,
+loan_applications_raw,branch_code,leading/trailing whitespace,445,
+loan_applications_raw,monthly_income_inr,"currency string instead of number (Rs./INR prefix, Indian digit grouping, 'L'/'Lakh')",803,
+loan_applications_raw,loan_amount_inr,"currency string instead of number (Rs./INR prefix, Indian digit grouping, 'L'/'Lakh')",942,
+loan_applications_raw,application_date,mixed date formats (ISO / dd/mm/yyyy / dd-Mon-yyyy / dd.mm.yyyy),10531,
+loan_applications_raw,(row),exact duplicate rows (re-ingested records),608,dedupe on the id column
+insurance_policies_raw,age,impossible value (0 / 150 / 999),30,
+insurance_policies_raw,bmi,impossible BMI (0 / 5.2 / 71 / 99),33,recompute from height & weight
+insurance_policies_raw,bmi,stale BMI inconsistent with height/weight,303,bmi vs weight/(height^2)
+insurance_policies_raw,height_cm,recorded in metres instead of cm,98,values < 3 -> x100
+insurance_policies_raw,weight_kg,recorded in pounds instead of kg,51,hard to detect: use BMI consistency
+insurance_policies_raw,children,negative count,16,
+insurance_policies_raw,annual_premium_inr,zero / negative premium (target defect),19,
+insurance_policies_raw,annual_premium_inr,outlier x10 (extra zero),16,
+insurance_policies_raw,premium_paying_term_years,PPT longer than policy term,35,
+insurance_policies_raw,annual_income_inr,outlier x100,33,
+insurance_policies_raw,bmi,missing value,585,MCAR (recoverable from height & weight)
+insurance_policies_raw,height_cm,missing value,595,MCAR
+insurance_policies_raw,weight_kg,missing value,592,MCAR
+insurance_policies_raw,smoker,missing value,365,MCAR
+insurance_policies_raw,children,missing value,301,MCAR
+insurance_policies_raw,occupation,missing value,396,MCAR
+insurance_policies_raw,annual_income_inr,missing value,526,MAR (online channel skips income)
+insurance_policies_raw,channel,missing value,201,MCAR
+insurance_policies_raw,sex,missing value,191,MCAR
+insurance_policies_raw,marital_status,missing value,205,MCAR
+insurance_policies_raw,payment_frequency,missing value,232,MCAR
+insurance_policies_raw,sum_assured_inr,missing value,296,MCAR
+insurance_policies_raw,pre_existing_condition,missing value,420,MNAR (non-disclosure more likely when condition exists)
+insurance_policies_raw,plan_type,inconsistent category labels (case / abbreviation / spelling),1958,
+insurance_policies_raw,sex,inconsistent category labels (case / abbreviation / spelling),2366,
+insurance_policies_raw,smoker,inconsistent category labels (case / abbreviation / spelling),2907,"Y/N, 1/0, True/False"
+insurance_policies_raw,pre_existing_condition,inconsistent category labels (case / abbreviation / spelling),1935,
+insurance_policies_raw,payment_frequency,inconsistent category labels (case / abbreviation / spelling),1569,
+insurance_policies_raw,city,inconsistent category labels (case / abbreviation / spelling),1313,
+insurance_policies_raw,city,leading/trailing whitespace,572,
+insurance_policies_raw,annual_premium_inr,"currency string instead of number (Rs./INR prefix, Indian digit grouping, 'L'/'Lakh')",626,
+insurance_policies_raw,annual_income_inr,"currency string instead of number (Rs./INR prefix, Indian digit grouping, 'L'/'Lakh')",560,
+insurance_policies_raw,application_date,mixed date formats (ISO / dd/mm/yyyy / dd-Mon-yyyy / dd.mm.yyyy),8758,
+insurance_policies_raw,(row),exact duplicate rows (re-ingested records),433,dedupe on the id column
