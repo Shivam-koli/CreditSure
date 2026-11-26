@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Loan Eligibility &amp; Insurance Pricing</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A0D14'/%3E%3Cpath d='M7 21 L13 13 L18 17 L25 8' stroke='%236C8CFF' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<script src="js/vendor/chart.umd.js"></script>
+<link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+<div class="shell">
+  <header class="topnav">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>
+        <div class="brand-name">Loan &amp; Insurance</div>
+        <div class="brand-tag">Prediction + Forecasting</div>
+      </div>
+    </div>
+
+    <nav class="pillnav" id="nav">
+      <a href="#overview"  data-route="overview"><span class="nav-ic">&#9635;</span>Overview</a>
+      <a href="#loan"      data-route="loan"><span class="nav-ic">&#127974;</span>Loan Eligibility</a>
+      <a href="#queue"     data-route="queue"><span class="nav-ic">&#128228;</span>Queue</a>
+      <a href="#insurance" data-route="insurance"><span class="nav-ic">&#10084;</span>Insurance Pricing</a>
+      <a href="#lab"       data-route="lab"><span class="nav-ic">&#129514;</span>Model Lab</a>
+      <a href="#monitor"   data-route="monitor"><span class="nav-ic">&#128202;</span>Monitoring</a>
+    </nav>
+
+    <div class="navtools">
+      <button class="icon-btn" id="apiHealthBtn" data-tip="API: checking…">&#9889;<span class="status-dot" id="apiHealthDot"></span></button>
+      <a class="icon-btn" href="/docs" target="_blank" rel="noopener" data-tip="API reference (FastAPI /docs)">&#128196;</a>
+      <button class="icon-btn" id="themeBtn" data-tip="Switch theme (Dark)">&#127769;</button>
+      <button class="icon-btn" id="settingsBtn" data-tip="Settings">&#9881;&#65039;</button>
+      <button class="avatar" id="ownerAvatarBtn" data-tip="Shivam Koli · Project owner">SK</button>
+    </div>
+  </header>
+
+  <main class="main" id="main">
+    <div class="loading">Loading…</div>
+  </main>
+</div>
+
+<!-- ---------- Profile modal ---------- -->
+<div class="modal-backdrop" id="profileModal">
+  <div class="modal">
+    <div class="modal-head"><h3>Profile</h3><button class="icon-btn" id="profileClose" data-tip="Close">&#10005;</button></div>
+    <label class="field">Name</label>
+    <input type="text" id="profileName" placeholder="Your name" />
+    <label class="field">Role / tagline</label>
+    <input type="text" id="profileRole" placeholder="e.g. Project owner · Portfolio build" />
+    <div class="modal-actions"><button class="btn" id="profileSave">Save</button></div>
+  </div>
+</div>
+
+<!-- ---------- Settings modal ---------- -->
+<div class="modal-backdrop" id="settingsModal">
+  <div class="modal">
+    <div class="modal-head"><h3>Settings</h3><button class="icon-btn" id="settingsClose" data-tip="Close">&#10005;</button></div>
+    <label class="switch-row"><input type="checkbox" id="setReduceMotion" /> Reduce motion (turns off hover-lift and entrance animations)</label>
+    <label class="switch-row"><input type="checkbox" id="setAutoRefresh" /> Auto-refresh Model Lab &amp; Monitoring every 30s</label>
+    <div class="modal-actions"><button class="btn" id="settingsSave">Save</button></div>
+  </div>
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/pages.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
