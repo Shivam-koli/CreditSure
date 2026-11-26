@@ -11,6 +11,8 @@ It combines three ProjectPro titles: *Loan Eligibility Prediction using Gradient
 
 ## Architecture
 
+![CreditSure architecture](docs/images/architecture.png)
+
 ```
 data/raw/*.csv  (landing zone, deliberately messy)
       |  python -m lia.etl            cleaning: dedupe, 4 date formats, Rs./Lakh strings, label variants,
