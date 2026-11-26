@@ -1,0 +1,103 @@
+{
+  "name": "insurance:new",
+  "time": "2026-11-26T05:54:24+00:00",
+  "n_reference": 6000,
+  "n_current": 500,
+  "features": [
+    {
+      "feature": "age",
+      "type": "numeric",
+      "psi": 0.0697,
+      "ks_stat": 0.0666,
+      "ks_pvalue": 0.0317924728546992,
+      "status": "stable",
+      "missing_ref": 0.0017,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "bmi",
+      "type": "numeric",
+      "psi": 0.0513,
+      "ks_stat": 0.1036,
+      "ks_pvalue": 9.062159900241425e-05,
+      "status": "stable",
+      "missing_ref": 0.0033,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "children",
+      "type": "numeric",
+      "psi": 0.0087,
+      "ks_stat": 0.0283,
+      "ks_pvalue": 0.8509443412674438,
+      "status": "stable",
+      "missing_ref": 0.0192,
+      "missing_cur": 0.022
+    },
+    {
+      "feature": "sum_assured_inr",
+      "type": "numeric",
+      "psi": 0.1343,
+      "ks_stat": 0.1166,
+      "ks_pvalue": 7.272119651872406e-06,
+      "status": "watch",
+      "missing_ref": 0.016,
+      "missing_cur": 0.01
+    },
+    {
+      "feature": "city_tier",
+      "type": "numeric",
+      "psi": 0.004,
+      "ks_stat": 0.0312,
+      "ks_pvalue": 0.7508172912616572,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "sex",
+      "type": "categorical",
+      "psi": 0.0129,
+      "status": "stable"
+    },
+    {
+      "feature": "smoker",
+      "type": "categorical",
+      "psi": 0.0121,
+      "status": "stable"
+    },
+    {
+      "feature": "pre_existing_condition",
+      "type": "categorical",
+      "psi": 0.0078,
+      "status": "stable"
+    },
+    {
+      "feature": "zone",
+      "type": "categorical",
+      "psi": 0.0053,
+      "status": "stable"
+    },
+    {
+      "feature": "occupation",
+      "type": "categorical",
+      "psi": 0.0031,
+      "status": "stable"
+    }
+  ],
+  "score_drift": {
+    "psi": 0.0375,
+    "status": "stable"
+  },
+  "n_alert": 0,
+  "n_watch": 1,
+  "max_psi": 0.1343,
+  "overall": "watch",
+  "top_drifting": [
+    "sum_assured_inr",
+    "age",
+    "bmi",
+    "sex",
+    "smoker"
+  ]
+}

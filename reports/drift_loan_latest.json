@@ -1,0 +1,309 @@
+{
+  "name": "loan:new",
+  "time": "2026-11-26T05:54:23+00:00",
+  "n_reference": 6000,
+  "n_current": 600,
+  "features": [
+    {
+      "feature": "age",
+      "type": "numeric",
+      "psi": 0.0205,
+      "ks_stat": 0.0382,
+      "ks_pvalue": 0.39534629953107786,
+      "status": "stable",
+      "missing_ref": 0.0018,
+      "missing_cur": 0.0017
+    },
+    {
+      "feature": "years_employed",
+      "type": "numeric",
+      "psi": 0.0177,
+      "ks_stat": 0.0338,
+      "ks_pvalue": 0.5655315844433384,
+      "status": "stable",
+      "missing_ref": 0.027,
+      "missing_cur": 0.0267
+    },
+    {
+      "feature": "dependents",
+      "type": "numeric",
+      "psi": 0.0055,
+      "ks_stat": 0.0365,
+      "ks_pvalue": 0.4584863917640749,
+      "status": "stable",
+      "missing_ref": 0.0177,
+      "missing_cur": 0.0133
+    },
+    {
+      "feature": "monthly_income_inr",
+      "type": "numeric",
+      "psi": 0.0162,
+      "ks_stat": 0.0319,
+      "ks_pvalue": 0.6254245459286352,
+      "status": "stable",
+      "missing_ref": 0.019,
+      "missing_cur": 0.005
+    },
+    {
+      "feature": "co_applicant_income_inr",
+      "type": "numeric",
+      "psi": 0.055,
+      "ks_stat": 0.0924,
+      "ks_pvalue": 0.00017607063106710866,
+      "status": "stable",
+      "missing_ref": 0.0082,
+      "missing_cur": 0.0067
+    },
+    {
+      "feature": "total_income",
+      "type": "numeric",
+      "psi": 0.0262,
+      "ks_stat": 0.0296,
+      "ks_pvalue": 0.7179123262037373,
+      "status": "stable",
+      "missing_ref": 0.019,
+      "missing_cur": 0.005
+    },
+    {
+      "feature": "existing_loans_count",
+      "type": "numeric",
+      "psi": 0.0008,
+      "ks_stat": 0.011,
+      "ks_pvalue": 0.9999998438615205,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "existing_emi_inr",
+      "type": "numeric",
+      "psi": 0.0036,
+      "ks_stat": 0.0143,
+      "ks_pvalue": 0.9998264341889715,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "past_delinquency_24m",
+      "type": "numeric",
+      "psi": 0.0028,
+      "ks_stat": 0.0216,
+      "ks_pvalue": 0.9576977316881485,
+      "status": "stable",
+      "missing_ref": 0.0147,
+      "missing_cur": 0.0083
+    },
+    {
+      "feature": "cibil_score",
+      "type": "numeric",
+      "psi": 0.0611,
+      "ks_stat": 0.1022,
+      "ks_pvalue": 5.992604497196377e-05,
+      "status": "stable",
+      "missing_ref": 0.0702,
+      "missing_cur": 0.0967
+    },
+    {
+      "feature": "cibil_new_to_credit",
+      "type": "numeric",
+      "psi": 0.0,
+      "ks_stat": 0.0332,
+      "ks_pvalue": 0.5764673811156674,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "credit_history_flag",
+      "type": "numeric",
+      "psi": 0.0,
+      "ks_stat": 0.0322,
+      "ks_pvalue": 0.6370384344294795,
+      "status": "stable",
+      "missing_ref": 0.0662,
+      "missing_cur": 0.0417
+    },
+    {
+      "feature": "loan_amount_inr",
+      "type": "numeric",
+      "psi": 0.0139,
+      "ks_stat": 0.049,
+      "ks_pvalue": 0.14179301755690144,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "tenure_months",
+      "type": "numeric",
+      "psi": 0.0162,
+      "ks_stat": 0.0277,
+      "ks_pvalue": 0.7849218724447892,
+      "status": "stable",
+      "missing_ref": 0.0008,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "interest_rate_pct",
+      "type": "numeric",
+      "psi": 0.2313,
+      "ks_stat": 0.1507,
+      "ks_pvalue": 3.6251744365395904e-11,
+      "status": "watch",
+      "missing_ref": 0.0092,
+      "missing_cur": 0.01
+    },
+    {
+      "feature": "emi_inr",
+      "type": "numeric",
+      "psi": 0.046,
+      "ks_stat": 0.0822,
+      "ks_pvalue": 0.0012018415461763185,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "foir",
+      "type": "numeric",
+      "psi": 0.036,
+      "ks_stat": 0.0779,
+      "ks_pvalue": 0.002620511067563964,
+      "status": "stable",
+      "missing_ref": 0.019,
+      "missing_cur": 0.005
+    },
+    {
+      "feature": "loan_to_income",
+      "type": "numeric",
+      "psi": 0.0366,
+      "ks_stat": 0.0526,
+      "ks_pvalue": 0.09558172140413293,
+      "status": "stable",
+      "missing_ref": 0.019,
+      "missing_cur": 0.005
+    },
+    {
+      "feature": "emi_to_income",
+      "type": "numeric",
+      "psi": 0.057,
+      "ks_stat": 0.0789,
+      "ks_pvalue": 0.0022167963735398636,
+      "status": "stable",
+      "missing_ref": 0.019,
+      "missing_cur": 0.005
+    },
+    {
+      "feature": "ltv",
+      "type": "numeric",
+      "psi": 0.0056,
+      "ks_stat": 0.0363,
+      "ks_pvalue": 0.46377598402338915,
+      "status": "stable",
+      "missing_ref": 0.0097,
+      "missing_cur": 0.01
+    },
+    {
+      "feature": "is_secured",
+      "type": "numeric",
+      "psi": 0.0,
+      "ks_stat": 0.0113,
+      "ks_pvalue": 0.9999995794193804,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "total_assets",
+      "type": "numeric",
+      "psi": 0.0172,
+      "ks_stat": 0.0508,
+      "ks_pvalue": 0.11601750531445658,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "assets_to_loan",
+      "type": "numeric",
+      "psi": 0.0322,
+      "ks_stat": 0.045,
+      "ks_pvalue": 0.2140191227708986,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "bank_assets_inr",
+      "type": "numeric",
+      "psi": 0.0083,
+      "ks_stat": 0.0377,
+      "ks_pvalue": 0.413127375966814,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "city_tier",
+      "type": "numeric",
+      "psi": 0.0003,
+      "ks_stat": 0.0075,
+      "ks_pvalue": 1.0,
+      "status": "stable",
+      "missing_ref": 0.0,
+      "missing_cur": 0.0
+    },
+    {
+      "feature": "employment_type",
+      "type": "categorical",
+      "psi": 0.0009,
+      "status": "stable"
+    },
+    {
+      "feature": "education",
+      "type": "categorical",
+      "psi": 0.0002,
+      "status": "stable"
+    },
+    {
+      "feature": "home_ownership",
+      "type": "categorical",
+      "psi": 0.0051,
+      "status": "stable"
+    },
+    {
+      "feature": "property_area",
+      "type": "categorical",
+      "psi": 0.0011,
+      "status": "stable"
+    },
+    {
+      "feature": "channel",
+      "type": "categorical",
+      "psi": 0.1161,
+      "status": "watch"
+    },
+    {
+      "feature": "loan_purpose",
+      "type": "categorical",
+      "psi": 0.0067,
+      "status": "stable"
+    }
+  ],
+  "score_drift": {
+    "psi": 0.1139,
+    "status": "watch"
+  },
+  "n_alert": 0,
+  "n_watch": 2,
+  "max_psi": 0.2313,
+  "overall": "watch",
+  "top_drifting": [
+    "interest_rate_pct",
+    "channel",
+    "cibil_score",
+    "emi_to_income",
+    "co_applicant_income_inr"
+  ]
+}
