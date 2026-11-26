@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+models/*.joblib
+models/*.parquet
+reports/*.log
+reports/scheduler_state.json
+data/processed/
+*.db
+mlflow/

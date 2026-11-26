@@ -1,0 +1,79 @@
+# Everything runs locally and costs nothing:  docker compose up --build
+# GCP mapping: mysql -> Cloud SQL (or MySQL on a Compute Engine VM), bootstrap/scheduler -> cron / Cloud Scheduler on the
+# same VM, api -> a container on the VM, ./data/raw -> Cloud Storage landing bucket.  See docs/GCP_MAPPING.md
+# MLflow tracking: a local SQLite DB (not a server - see src/lia/tracking.py for why), written directly
+# by whichever container trains. mlflow_data is shared so `mlflow-ui` (below, on demand) can read it too.
+# Frontend: the dashboard (web/) is plain static HTML/CSS/JS with no build step - the api service
+# serves it directly (see the StaticFiles mount at the bottom of src/lia/api.py), so there is no
+# separate frontend container or port to run.
+x-env: &env
+  DATABASE_URL: mysql+pymysql://${MYSQL_USER}:${MYSQL_PASSWORD}@mysql:3306/${MYSQL_DATABASE}
+  LIA_HOME: /app
+  MLFLOW_TRACKING_URI: sqlite:////app/mlflow/mlflow.db
+
+x-app: &app
+  build: { context: ., dockerfile: docker/Dockerfile }
+  env_file: .env
+  environment: *env
+  volumes:
+    - ./data:/app/data
+    - ./models:/app/models
+    - ./reports:/app/reports
+    - mlflow_data:/app/mlflow
+
+services:
+  mysql:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports: ["${MYSQL_PORT:-3306}:3306"]
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./sql/01_init.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  bootstrap:            # one-shot: load raw -> MySQL, clean, train both models, first drift reports
+    <<: *app
+    command: ["python", "-m", "lia.bootstrap"]
+    depends_on: { mysql: { condition: service_healthy } }
+    restart: "no"
+
+  api:                  # serves both the JSON API and the dashboard (web/) on the same port
+    <<: *app
+    command: ["uvicorn", "lia.api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports: ["${API_PORT:-8001}:8000"]
+    depends_on: { bootstrap: { condition: service_completed_successfully } }
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      retries: 10
+    restart: unless-stopped
+
+  scheduler:            # drift check every 24h, gated champion/challenger retrain every 30 days
+    <<: *app
+    command: ["python", "-m", "lia.scheduler"]
+    environment:
+      <<: *env
+      DRIFT_EVERY_HOURS: "24"
+      RETRAIN_EVERY_DAYS: "30"
+    depends_on: { bootstrap: { condition: service_completed_successfully } }
+    restart: unless-stopped
+
+  mlflow-ui:            # on demand only (not a 24/7 container - see src/lia/tracking.py for why):
+                        # docker compose --profile tools run --rm --service-ports mlflow-ui
+    <<: *app
+    command: ["mlflow", "ui", "--backend-store-uri", "sqlite:////app/mlflow/mlflow.db", "--host", "0.0.0.0", "--port", "5000"]
+    ports: ["${MLFLOW_UI_PORT:-5000}:5000"]
+    profiles: ["tools"]
+
+volumes:
+  mysql_data:
+  mlflow_data:
