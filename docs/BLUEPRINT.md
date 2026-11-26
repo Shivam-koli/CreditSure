@@ -127,7 +127,7 @@ Scheduled retrain job + PSI/KS drift check against the Aug 2026 drift episode
 | ✅ Done | Full-bleed layout fix, app-wide hover-lift, replayed entrance animation, editable Profile + Settings (reduce motion, auto-refresh) |
 | ✅ Done | This blueprint document — kept current as the project progresses (this file) |
 | 🔲 Pending | GitHub repository creation and push |
-| 🔲 Pending | Kaggle seed-dataset licence verification (2 of 4 seeds confirmed, see Data Card §8.6) |
+| 🔲 Pending | Kaggle seed-dataset licence verification (2 of 4 seeds confirmed, see Data Card §7.6) |
 | ➖ Not needed | Academic publications — confirmed not required; this is a personal portfolio project only |
 
 ## 6. Real-World Connecting Questions & Answers
@@ -226,7 +226,7 @@ reason someone might choose differently for a different portfolio.
 
 ## 8. Honest Limitations (carried from the Data Card)
 
-See `docs/DATA_CARD.md` section 8 for the full list. In short: the outcome labels come from a
+See `docs/DATA_CARD.md` section 7 for the full list. In short: the outcome labels come from a
 documented synthetic risk model, not real repayment history; the smoker premium loading follows a
 US-based seed, not Indian tariffs; the architecture images in the course knowledge file are
 generic reference carousel diagrams, not project-specific; and the Kaggle seed licences are not
@@ -449,7 +449,7 @@ restriction.
 ### 2026-11-21 — README fix, MLflow logbook naming confirmed
 - Confirmed with the user that "MLflow logbook" is an accurate plain-language name for the
   experiment-tracking system added on 2026-11-21 (see below).
-- Started the Kaggle seed-dataset licence check (see Data Card §8.6): confirmed the
+- Started the Kaggle seed-dataset licence check (see Data Card §7.6): confirmed the
   `mirichoi0218/insurance` (Medical Cost Personal Datasets) seed is described by its own author as
   public domain, and the Analytics Vidhya 614-row loan prediction seed is mirrored on OpenML tagged
   CC0: Public Domain. Could not independently confirm the licence tags for the two remaining seeds

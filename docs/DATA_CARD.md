@@ -15,22 +15,9 @@ Seed: `numpy.random.default_rng(42)` - fully reproducible with `generator/build.
 | `data_quality_issue_manifest.csv` | - | Every injected defect: column, issue, rows affected, how to detect/repair |
 | `generator/` | - | `build.py`, `gen_loan.py`, `gen_insurance.py`, `corrupt.py`, `validate.py`, `validate_raw.py` |
 
-The files are deliberately **raw** (landing-zone quality). The cleaning and transformation work is part of your project. Every defect is detectable, and the format and label defects are fully reversible (round-trip tested, section 7); outliers, sentinels and unit slips need rules or imputation.
+The files are deliberately **raw** (landing-zone quality). The cleaning and transformation work is part of your project. Every defect is detectable, and the format and label defects are fully reversible (round-trip tested, section 6); outliers, sentinels and unit slips need rules or imputation.
 
-## 2. How the project titles are covered by the data
-
-Three of the four source project titles are implemented in this project (see `docs/BLUEPRINT.md`). The fourth, H2O.ai, is kept in this table because the data genuinely supports it, not because it ships - the decision not to build it is logged in `docs/BLUEPRINT.md`'s progress log.
-
-| Project title | What the data gives it | Implemented? |
-|---|---|---|
-| Loan Eligibility Prediction using Gradient Boosting Classifier | Binary target (Charged Off vs Fully Paid, ~18% positive among matured loans -> SMOTE is meaningful), mixed categorical/numeric features, missing values, engineered-ratio opportunities (FOIR, LTV, loan-to-income, total assets), non-linear effects and interactions that reward boosting | Yes |
-| Loan Eligibility Prediction Project using Machine learning on GCP | Landing-zone style CSVs (raw -> cleansed -> analytics layers), MySQL-ready columns, ids/dates for SQL (`ROW_NUMBER` de-dupe, `RANK`/`DENSE_RANK` per city or customer, `SUBSTR`/`INSTR` on `branch_code`, `COALESCE`, date-format conversion), monthly batches + a new-data file for the scheduled retrain, drift episode from 1 Aug 2026 | Yes |
-| Insurance Pricing Forecast Using XGBoost Regressor | Numeric target `annual_premium_inr`, smoker x BMI interaction, heteroscedastic noise, collinear height/weight/BMI, outliers, a linear baseline that XGBoost clearly beats, monthly seasonality + premium inflation for the forecast view | Yes |
-| Loan Eligibility Prediction in Python using H2O.ai | Same loan table for GLM / DRF / GBM / XGBoost comparison, imbalance, leakage columns to catch, variable importance, an autoencoder anomaly experiment (the x100 / x1000 outliers and near-duplicates are the anomalies) | No - built and verified, then deliberately dropped (see `docs/BLUEPRINT.md`) |
-
-"Forecasting + prediction in one project": premium **prediction** is row-level (regression); the **forecast** is a monthly aggregate (policies and written premium by plan) built in a SQL view from `application_date`. Seasonality is built in: savings-plan volume peaks in March (tax-saving season, ~2.2x), health peaks in April, festive bump Oct-Dec, plus ~5% a year premium inflation with a 7% health step-up from Aug 2026.
-
-## 3. Loan dictionary (`loan_applications_raw.csv`)
+## 2. Loan dictionary (`loan_applications_raw.csv`)
 
 | Column | Role | Notes |
 |---|---|---|
@@ -53,7 +40,7 @@ Three of the four source project titles are implemented in this project (see `do
 
 Features you should engineer (not stored on purpose): FOIR = (emi + existing_emi) / (income + 0.6 x co-applicant income), loan-to-income, LTV = loan / collateral, total assets, income per dependent, employment stability, application month/quarter.
 
-## 4. Insurance dictionary (`insurance_policies_raw.csv`)
+## 3. Insurance dictionary (`insurance_policies_raw.csv`)
 
 | Column | Role | Notes |
 |---|---|---|
@@ -73,7 +60,7 @@ Features you should engineer (not stored on purpose): FOIR = (emi + existing_emi
 
 **Recommended headline model:** Health-only (the risk-priced segment, where the linear-vs-XGBoost story is real). Keep savings plans for the plan-mix/forecast view and an optional second model.
 
-## 5. Injected defects (see manifest for exact counts)
+## 4. Injected defects (see manifest for exact counts)
 
 - Duplicates: 2.6% (loan), 2.2% (insurance) exact re-ingested rows
 - Mixed date formats: ISO, dd/mm/yyyy, dd-Mon-yyyy, dd.mm.yyyy (~45% non-ISO)
@@ -85,14 +72,14 @@ Features you should engineer (not stored on purpose): FOIR = (emi + existing_emi
 - Outliers: income x100, premium x10
 - Whitespace padding, constant columns, high-cardinality ids
 
-## 6. Time and drift design
+## 5. Time and drift design
 
 - Window: 1 Nov 2023 - 31 Oct 2026; volume grows ~1.2% a month.
 - Drift episode from **1 Aug 2026**: interest rates +0.6 pt (PSI 0.15), Online channel share 30% -> 46% (PSI 0.11), CIBIL slightly lower, self-employed income -10%, default rate 17.8% -> 23.4%. Insurance: BMI and smoker mix shift slightly, health premiums +7%.
 - Stable control period: PSI 0.005 (Feb-Apr vs May-Jul 2026), so the monitor does not alarm on noise.
 - Suggested split: train Nov 2023 - Jan 2026, validate Feb - Jul 2026, test/monitor Aug - Oct 2026.
 
-## 7. Validation results (re-run with `generator/validate.py`, `validate_raw.py`)
+## 6. Validation results (re-run with `generator/validate.py`, `validate_raw.py`)
 
 **Loan** (clean version, HistGB default hyper-parameters vs standardised logistic regression):
 
@@ -109,7 +96,7 @@ So boosting wins modestly, as it should on real credit data: logistic regression
 
 **Round trip:** after de-duplication, dates, currency strings, label variants and whitespace are recovered to the truth at 100% (income 98.0%, loan amount 99.5% - the remainder are the deliberately injected sign/x100/x1000 errors and genuine blanks, which need outlier rules or imputation).
 
-## 8. Honest limitations (say these in interviews)
+## 7. Honest limitations (say these in interviews)
 
 1. **Synthetic.** The repayment outcome comes from a documented risk model I wrote, so reported AUC measures the pipeline, not real-world credit risk. Never claim it predicts real defaults.
 2. **What the seeds really contributed.** Only the Analytics Vidhya loan set (demographics, income, credit-history mix) and `insurance.csv` (charges surface) carry real signal. The CIBIL/asset set is rule-based synthetic (approval flips at CIBIL ~550 with ~10% noise) and the 45k credit-risk set looks synthetic (interest rate uncorrelated with credit score). They were used for schema, asset ratios, age/experience and category mixes only. The 100-row plan set gave plan/term/premium structure.
@@ -122,7 +109,7 @@ So boosting wins modestly, as it should on real credit data: logistic regression
    - The ~4,269-row CIBIL/assets seed and the ~45,000-row credit-risk seed - could not confirm an explicit licence tag; Kaggle's dataset pages require a logged-in session this check couldn't reach. **Action for you:** open these two dataset pages yourself (30 seconds each, since you have a Kaggle account) and note the licence badge shown there.
    - **Why this is low-risk regardless:** the repo never commits the raw downloaded seed CSVs, only `generator/`'s synthetic output, which contains no verbatim seed rows (incomes and amounts are rescaled and re-drawn). The open item is about citing sources correctly, not about redistribution risk.
 
-## 9. Suggested cleaning checklist (the standard flow your pipeline should show)
+## 8. Suggested cleaning checklist (the standard flow your pipeline should show)
 
 1. Profile raw -> data-quality report (nulls, dtypes, duplicates, cardinality).
 2. De-duplicate on id (`ROW_NUMBER() OVER (PARTITION BY id ORDER BY ...)`).
