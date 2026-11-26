@@ -7,8 +7,6 @@ One web app, two modules:
 * **Loan eligibility**: decides whether an applicant is *Eligible*, needs *Manual review* or is *Not eligible*, and explains why with SHAP reason codes.
 * **Insurance pricing**: predicts an individual's annual health premium with an 80% error range. This is premium **prediction**; a monthly written-premium series for forecasting is also available as a SQL view.
 
-It combines three ProjectPro titles: *Loan Eligibility Prediction using Gradient Boosting Classifier*, *Loan Eligibility Prediction Project using Machine learning on GCP* and *Insurance Pricing Forecast Using XGBoost Regressor*.
-
 > **Data disclosure.** The data is a **synthetic dataset seeded from public datasets** (Kaggle). It is not real customer data and contains no employer material. See [`docs/DATA_CARD.md`](docs/DATA_CARD.md).
 
 ## 2. Tech stack & architecture
