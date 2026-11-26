@@ -13,25 +13,6 @@ It combines three ProjectPro titles: *Loan Eligibility Prediction using Gradient
 
 ![CreditSure architecture](docs/images/architecture.png)
 
-```
-data/raw/*.csv  (landing zone, deliberately messy)
-      |  python -m lia.etl            cleaning: dedupe, 4 date formats, Rs./Lakh strings, label variants,
-      v                               unit errors, sentinels, impossible values  -> reports/data_quality.json
-MySQL feature store (docker)     raw_* tables  ->  *_clean tables  ->  SQL views (ROW_NUMBER, RANK, DENSE_RANK,
-      |                                                                SUBSTR/INSTR, COALESCE, LAG, rolling SUM)
-      v
-Training  (sklearn / imblearn Pipelines, time-based split, SMOTE inside the pipeline, BayesSearchCV)
-  loan:      GLM, Random Forest, Gradient Boosting, XGBoost (+/- SMOTE, tuned) -> Platt calibration -> money rule
-  insurance: linear baselines vs XGBoost (tuned) on log-premium -> quantile XGBoost + Mondrian conformal 80% range
-      |  every candidate -> MLflow (params/metrics, SQLite-backed, no extra container - see lia.tracking)
-      |  models/*_champion.joblib + models/registry.json (versioned history) + MLflow Model Registry
-      v
-FastAPI (/loan/score, /loan/queue, /insurance/quote, /monitor/*)  also serves the dashboard - static
-HTML/CSS/JS (web/), 6 pages, Dark/Light/Sunset themes, no build step - at the same URL, one port
-      ^
-scheduler container: drift check (PSI + KS + model-score PSI) daily, gated champion/challenger retrain monthly
-```
-
 ## Quick start (free, local)
 
 ```bash
