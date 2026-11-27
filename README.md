@@ -1,4 +1,6 @@
-# Loan Eligibility Prediction and Insurance Pricing Forecast using Gradient Boosting and XGBoost on GCP with MySQL
+# CreditSure – Automated Loan and Insurance Risk Intelligence System
+
+### Loan Eligibility Prediction and Insurance Pricing Forecast using Gradient Boosting and XGBoost on GCP with MySQL
 
 ## 1. What is this project
 
