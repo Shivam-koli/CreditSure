@@ -25,3 +25,7 @@
 {"time": "2026-11-25T13:09:11+00:00", "name": "insurance:new", "overall": "watch", "n_alert": 0, "n_watch": 1, "max_psi": 0.1343, "top_drifting": ["sum_assured_inr", "age", "bmi", "sex", "smoker"]}
 {"time": "2026-11-26T05:54:24+00:00", "name": "insurance:recent", "overall": "stable", "n_alert": 0, "n_watch": 0, "max_psi": 0.0608, "top_drifting": ["bmi", "zone", "age", "occupation", "sex"]}
 {"time": "2026-11-26T05:54:24+00:00", "name": "insurance:new", "overall": "watch", "n_alert": 0, "n_watch": 1, "max_psi": 0.1343, "top_drifting": ["sum_assured_inr", "age", "bmi", "sex", "smoker"]}
+{"time": "2026-11-26T12:06:33+00:00", "name": "insurance:recent", "overall": "stable", "n_alert": 0, "n_watch": 0, "max_psi": 0.0608, "top_drifting": ["bmi", "zone", "age", "occupation", "sex"]}
+{"time": "2026-11-26T12:06:33+00:00", "name": "insurance:new", "overall": "watch", "n_alert": 0, "n_watch": 1, "max_psi": 0.1343, "top_drifting": ["sum_assured_inr", "age", "bmi", "sex", "smoker"]}
+{"time": "2026-11-27T05:57:45+00:00", "name": "insurance:recent", "overall": "stable", "n_alert": 0, "n_watch": 0, "max_psi": 0.0608, "top_drifting": ["bmi", "zone", "age", "occupation", "sex"]}
+{"time": "2026-11-27T05:57:46+00:00", "name": "insurance:new", "overall": "watch", "n_alert": 0, "n_watch": 1, "max_psi": 0.1343, "top_drifting": ["sum_assured_inr", "age", "bmi", "sex", "smoker"]}
